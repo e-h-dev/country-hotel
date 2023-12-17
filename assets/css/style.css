@@ -23,8 +23,7 @@ footer{
     height: 100px;
 }
 
-ul{
-    list-style-type: none;
+.float-right{
     float:right;
 }
 
