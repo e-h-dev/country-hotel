@@ -1,0 +1,31 @@
+/* main page styles */
+
+body{
+    
+}
+
+header{
+
+}
+
+section{
+
+}
+
+footer{
+
+}
+
+/* nav styles */
+
+.nav-bar {
+    background: #425B58;
+    height: 100px;
+}
+
+ul{
+    list-style-type: none;
+    float:right;
+}
+
+
