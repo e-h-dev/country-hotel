@@ -42,18 +42,25 @@ a:hover{
 
 .country-hotel-navbar {
     background: #425B58;
-    height: 100px;
+    height: 180px;
     color:#E7D49E;
     
 }
 
+.nav-img{
+    height:160px;
+    width:140px;
+    margin-top: 20px;
+}
+
 .nav-fonts{
-    font-size: large;
+    font-size: 20px;
     letter-spacing: 2px;
 }
 
 .nav-item{
-    margin:0;
+    padding-top:60px;
+    height:180px;
 }
 
 .nav-item:hover{
