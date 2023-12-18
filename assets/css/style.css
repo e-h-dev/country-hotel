@@ -13,18 +13,59 @@ section{
 }
 
 footer{
+    background: #2e3f3d;
+    color:#E7D49E
 
 }
+
+/* styling classes */
+
+a {
+   text-decoration: none;
+   color:#E7D49E;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#505050
+}
+   
+
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
 
 /* nav styles */
 
-.nav-bar {
+.country-hotel-navbar {
     background: #425B58;
     height: 100px;
+    color:#E7D49E;
+    
 }
 
-.float-right{
-    float:right;
+.nav-fonts{
+    font-size: large;
+    letter-spacing: 2px;
 }
 
+.nav-item{
+    margin:0;
+}
 
+.nav-item:hover{
+    background:#E7D49E;
+    color:#425B58
+}
+/* footer */
+
+.footer-theme{
+    background: #2e3f3d;
+}
+
+.footer-social-links{
+    float:center;
+}
