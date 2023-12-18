@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500;600;700&family=Questrial&display=swap');
+
 /* main page styles */
 
 body{
@@ -27,7 +29,7 @@ a {
 
 a:hover{
     text-decoration: none;
-    color:#505050
+
 }
    
 
@@ -55,15 +57,20 @@ a:hover{
 
 .nav-fonts{
     font-size: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: KoHo, sans-serif;
+    font-weight: 400;
 }
 
-.nav-item{
-    padding-top:60px;
+.nav-link{
+    padding-top:80px;
     height:180px;
+    width:150px;
+    border-radius: 23px;
+    text-align: center;
 }
 
-.nav-item:hover{
+.nav-link:hover{
     background:#E7D49E;
     color:#425B58
 }
