@@ -39,7 +39,7 @@ a:hover{
 
 .sub-font{
     font-family: Questrial, sans-serif;
-    color:#E7D49E
+    color:#927242;
 }
 
 
@@ -157,6 +157,17 @@ a:hover{
 .footer-image{
     width:100px;
     height:50px;
+    margin-left: 160px;
+}
+
+.footer-text{
+    text-align: center;
+    margin:20px;
+}
+
+.footer-sub-text {
+    text-align: center;
+    margin: 0,20px;
 }
 
 .footer-social-links{
