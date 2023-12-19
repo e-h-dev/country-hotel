@@ -46,7 +46,7 @@ a:hover{
     background: #425B58;
     height: 180px;
     color:#E7D49E;
-    
+    padding-right: 0;
 }
 
 .nav-img{
@@ -62,17 +62,19 @@ a:hover{
     font-weight: 400;
 }
 
-.nav-link{
+.nav-item{
     padding-top:80px;
     height:180px;
     width:150px;
-    border-radius: 23px;
+    /* position: absolute; */
     text-align: center;
 }
 
+
 .nav-link:hover{
     background:#E7D49E;
-    color:#425B58
+    color:#425B58;
+    height:100px;
 }
 /* footer */
 
