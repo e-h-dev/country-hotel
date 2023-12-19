@@ -173,3 +173,13 @@ a:hover{
 .footer-social-links{
     float:center;
 }
+
+.social-link{
+    font-size: large;
+    margin:5px;
+}
+
+.social-link.nav-link:hover {
+    font-size: x-large;
+    color:#927242;
+}
