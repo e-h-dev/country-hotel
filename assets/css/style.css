@@ -65,15 +65,6 @@ a:hover{
     background: #425B58;
     z-index: 1;
 }
-/* .bg-dark{
-    background: #425B58;
-    height: 180px;
-    padding-right: 0;
-}
-
-.navbar-dark{
-    color: #E7D49E;
-} */
 
 .nav-img{
     height:160px;
@@ -101,6 +92,19 @@ a:hover{
     background:#E7D49E;
     color:#425B58;
     height:100px;
+}
+
+.active{
+    border-bottom: 2px inset #E7D49E;
+}
+
+.dropdown-menu{
+    background: #425B58;
+}
+
+.dropdown-menu h6{
+    font-family: KoHo, sans-serif;
+    color: #E7D49E;
 }
 
 /* mobile devices navbar */
@@ -142,6 +146,23 @@ a:hover{
         color: #425B58;
         height: 20px;
     }
+
+        .active {
+            border:0;
+        }
+
+        .footer-mobile-text{
+            font-size:xx-small;
+        }
+
+        .footer-mobile-text-header{
+            font-size: 12px;
+        }
+
+        .footer-image{
+            width:80px;
+            height:40px;
+        }
 }
 
 .navbar-toggler{
@@ -150,7 +171,7 @@ a:hover{
 
 
 .navbar-toggler:focus{
-    text-decoration:none;
+    outline:none;
 }
 
 
@@ -166,7 +187,7 @@ a:hover{
 .footer-image{
     width:100px;
     height:50px;
-    margin-left: 160px;
+    position: relative;
 }
 
 .footer-text{
@@ -184,11 +205,10 @@ a:hover{
 }
 
 .social-link{
-    font-size: large;
+    font-size: 1.25rem;
     margin:5px;
 }
 
 .social-link:hover {
-    font-size: x-large;
     color:#927242;
 }
