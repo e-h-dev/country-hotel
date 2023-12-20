@@ -47,6 +47,10 @@ a:hover{
     text-transform: uppercase;
 }
 
+.toggler{
+    font-size: 30px;
+    color:#E7D49E;
+}
 
 /* nav styles */
 
