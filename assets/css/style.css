@@ -145,7 +145,12 @@ a:hover{
 }
 
 .navbar-toggler{
-    border:0;
+    font-weight: 200;
+}
+
+
+.navbar-toggler:focus{
+    text-decoration:none;
 }
 
 
@@ -183,7 +188,7 @@ a:hover{
     margin:5px;
 }
 
-.social-link.nav-link:hover {
+.social-link:hover {
     font-size: x-large;
     color:#927242;
 }
