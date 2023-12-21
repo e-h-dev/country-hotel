@@ -245,30 +245,28 @@ a:hover{
     position: relative;
 }
 
-.hotel-image-link{
+.image-links{
+    background:#E7D49E;
+}
+
+.hotel-image-link {
+    background-image: url("../images/hotel-image.jpg");
+}
+
+.restaurant-image-link {
+    background-image: url("../images/restaurant-image.jpg");
+}
+
+.hotel-image-link,
+.restaurant-image-link{
     height: 300px;
     width: 50%;
     position: relative;
-    background-image: url("../images/hotel-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin:10px 20px;
     border: solid 2px #425B58;
-    border-radius: 5px;
-    padding:0;
-}
-
-.restaurant-image-link {
-    height: 300px;
-    width: 50%;
-    position: relative;
-    background-image: url("../images/restaurant-image.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin:10px 20px;
-    border:solid 2px #425B58;
     border-radius: 5px;
     padding:0;
 }
