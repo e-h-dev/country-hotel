@@ -68,7 +68,7 @@ a:hover{
 
 .nav-img{
     height:110px;
-    width:100px;
+    width:300px;
     /* margin-top: 20px; */
 }
 
@@ -116,10 +116,10 @@ a:hover{
         }
 
     .nav-img {
-        height: 120px;
-        width: 90px;
+        height: 70px;
+        width: 180px;
         margin-top: 5px;
-        margin-left: 50%;
+        margin-left: 0;
     }
 
     .nav-item {
