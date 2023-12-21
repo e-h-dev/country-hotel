@@ -245,9 +245,6 @@ a:hover{
     position: relative;
 }
 
-.image-links{
-    background:#E7D49E;
-}
 
 .hotel-image-link {
     background-image: url("../images/hotel-image.jpg");
@@ -273,10 +270,19 @@ a:hover{
 
 .hotel-link{
     background: rgba(66, 91, 88, 0.3);
-    color:#E7D49E;
+    color: #E7D49E;
     text-align: center;
     font-family: KoHo, sans-serif;
-    height:inherit;
+    font-weight: bold;
+    height:300px;
+}
+
+.hotel-link h2{
+    background: rgba(66, 91, 88, 0.6);
+}
+
+.hotel-link:hover {
+    background: rgba(66, 91, 88, 0.6);
 }
 
 /* mobile device home page */
