@@ -286,6 +286,11 @@ a:hover{
     bottom: 5px;
 }
 
+.btn-hero-about:hover{
+    background: #E7D49E;
+    color:#425B58
+}
+
 
 .hotel-image-link {
     background-image: url("../images/hotel-image.jpg");
