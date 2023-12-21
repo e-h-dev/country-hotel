@@ -235,7 +235,7 @@ a:hover{
     background-image: url("../images/hero-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .opaque{
@@ -252,10 +252,10 @@ a:hover{
     background-image: url("../images/hotel-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     margin:10px 20px;
     border: solid 2px #425B58;
-    border-radius: 12px;
+    border-radius: 5px;
     padding:0;
 }
 
@@ -266,9 +266,19 @@ a:hover{
     background-image: url("../images/restaurant-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     margin:10px 20px;
     border:solid 2px #425B58;
-    border-radius: 12px;
+    border-radius: 5px;
     padding:0;
+}
+
+/* mobile device home page */
+
+@media screen and (max-width: 943px){
+    .hotel-image-link,
+    .restaurant-image-link {
+        margin: 20px 350x;
+        width: 100%;
+        }
 }
