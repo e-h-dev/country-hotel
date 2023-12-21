@@ -271,6 +271,14 @@ a:hover{
     padding:0;
 }
 
+.hotel-link{
+    background: rgba(66, 91, 88, 0.3);
+    color:#E7D49E;
+    text-align: center;
+    font-family: KoHo, sans-serif;
+    height:inherit;
+}
+
 /* mobile device home page */
 
 @media screen and (max-width: 943px){
