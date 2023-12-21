@@ -241,8 +241,37 @@ a:hover{
 .opaque{
     width: 100%;
     height: 400px;
-    background: rgba(66, 91, 88, 0.3);
+    background: rgba(66, 91, 88, 0.4);
     position: relative;
+}
+
+.hero-about{
+    background: rgba(66, 91, 88, 0.6);
+    color:#E7D49E;
+    width:300px;
+    height:250px;
+    top:150px;
+    right:500px;
+    position: absolute;
+}
+
+.hero-about h2{
+    font-family:KoHo, sans-serif;
+    font-size:48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero-hr{
+    width:150px;
+    border:solid 3px #E7D49E
+}
+
+.hero-about p{
+    font-family: Questrial, sans-serif;
+    font-weight:400;
+    text-align: center;
+    font-size:24px;
 }
 
 
@@ -269,12 +298,13 @@ a:hover{
 }
 
 .hotel-link{
-    background: rgba(66, 91, 88, 0.3);
+    background: rgba(66, 91, 88, 0.2);
     color: #E7D49E;
     text-align: center;
     font-family: KoHo, sans-serif;
     font-weight: bold;
     height:300px;
+    border-radius: 5px;
 }
 
 .hotel-link h2{
