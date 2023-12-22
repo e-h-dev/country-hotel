@@ -333,6 +333,31 @@ a:hover{
     background: rgba(66, 91, 88, 0.6);
 }
 
+/* about section */
+
+.main-about{
+    width:800px;
+    color:#425B58;
+    font-size: 1.25rem;
+    background: #fef9fe;
+    border:solid 1px #425B58;
+    border-radius:5px;
+    position: relative;
+    left:300px;
+    padding:10px;
+}
+
+.main-about h1{
+    text-align:center;
+    font-family: KoHo, sans-serif;
+}
+
+.main-about p{
+    text-align:justify;
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+}
+
 /* mobile device home page */
 
 @media screen and (max-width: 943px){
