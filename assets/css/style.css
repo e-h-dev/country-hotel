@@ -34,10 +34,20 @@ a:hover{
    
 .main-font{
     font-family:KoHo, sans-serif;
+
+}
+
+.main-font-light {
+    font-family: KoHo, sans-serif;
     color: #E7D49E
 }
 
-.sub-font{
+
+.sub-font {
+    font-family: Questrial, sans-serif;
+
+}
+.sub-font-dark{
     font-family: Questrial, sans-serif;
     color:#927242;
 }
@@ -357,6 +367,29 @@ a:hover{
     font-family: Questrial, sans-serif;
     font-weight: 400;
 }
+
+/* location and map */
+
+.location{
+    width:80%;
+    position:relative;
+    left:180px;
+    top:20px;
+    text-align:center;
+    color:#2e3f3d;
+    text-align: center;
+}
+
+.location p{
+    padding:0;
+}
+
+iframe{
+    position:relative;
+    border:solid 1px #2e3f3d;
+    border-radius: 5px;
+}
+
 
 /* mobile device home page */
 
