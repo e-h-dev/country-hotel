@@ -52,6 +52,11 @@ a:hover{
     color:#927242;
 }
 
+.sub-font-grey{
+    font-family: Questrial, sans-serif;
+    color: #425B58;
+}
+
 
 .uppercase{
     text-transform: uppercase;
@@ -201,10 +206,8 @@ a:hover{
 /* footer */
 
 .footer-theme{
+    position: absolute;
     background: #2e3f3d;
-    /* position: fixed; */
-    bottom:0;
-    /* z-index:-1; */
 }
 
 .footer-image{
@@ -413,6 +416,38 @@ iframe{
     position: inherit;
 }
 
+/* reveiws section */
+
+.reveiws{
+    margin-top: 100px;
+    margin-left:50px;
+}
+
+.reveiws h1{
+    text-align: center;
+}
+
+.date{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h4 img{
+    height:50px;
+    height:50px;
+    border:solid 1px #2e3f3d;
+    border-radius:50%;
+}
+
+/* review star design */
+
+.fa-star{
+    color:#425B58;
+}
+
+.checked{
+    color:#E7D49E;
+}
 
 /* mobile device home page */
 
