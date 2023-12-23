@@ -344,6 +344,26 @@ a:hover{
     background: rgba(66, 91, 88, 0.6);
 }
 
+/* feature icons */
+
+.feature-icons{
+    position:relative;
+    background: #425b58;
+    top:25px;
+}
+
+.feature-icons i{
+    color: #E7D49E;
+    font-size: 2rem;
+    margin-left:40px;
+    padding:20px;
+}
+
+.feature-icons p{
+    color:#E7D49E;
+    font-size: 1rem;
+    text-align: center;
+}
 /* about section */
 
 .main-about{
