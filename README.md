@@ -1,8 +1,13 @@
 # First Milestone Project
 
+# Country Hotel
+
+![Country Hotel log](assets/images/logo.png)
+
 ## Table of Contents
 
 - [First Milestone Project](#first-milestone-project)
+- [Country Hotel](#country-hotel)
   - [Table of Contents](#table-of-contents)
 - [About](#about)
   - [User Experiance (UX)](#user-experiance-ux)
