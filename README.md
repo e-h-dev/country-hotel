@@ -59,4 +59,3 @@ I designed my color scheme, based on the Country Hotel logo. For the logo design
 - I have used `#FFFFFF` for the main body background.
 
 ![Country Hotel Color Scheme](assets/images/colors.jpg)
-

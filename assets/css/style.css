@@ -578,3 +578,22 @@ h4 img{
     }
 
 }
+
+/* styles for book page */
+
+.hero-image-book {
+    height: 800px;
+    width: 100%;
+    position: relative;
+    background-image: url("../images/hero-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opaque-book{
+    width: 100%;
+    height: 800px;
+    background: rgba(66, 91, 88, 0.4);
+    position: relative;
+}
