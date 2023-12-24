@@ -9,6 +9,8 @@
     - [User Stories](#user-stories)
       - [Hotel Owner Goals](#hotel-owner-goals)
       - [Site Visitor Goals](#site-visitor-goals)
+- [Design](#design)
+    - [Color Scheme](#color-scheme)
 
 # About
 
@@ -32,3 +34,21 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 - I want to see what the company have to offer, on their restuarant menu.
 - I want the site to be responsive to my device.
 - I want the site to be easy to navigate.
+
+# Design
+
+### Color Scheme
+
+I designed my color scheme, based on the Country Hotel logo. For the logo design I used the website Canva (I will isert link to Canva in credits section below). Based on the color of the logo I have designed the website.
+
+- I have used `#f5f5f5` for the dark text in the light background sections of the web pages.
+- I have used `#f5f5f5` for the light text in the dark background sections of the web pages.
+- I have used `#f5f5f5` for the light background small sections of the web pages.
+- I have used `#f5f5f5` for the dark background sections of the web pages.
+- I have used `#f5f5f5` for the light background large sections of the web pages.
+- I have used `#292929` for the dark borders.
+- I have used `#292929` for the light borders.
+- I have used `#f5f5f5` for the darker brown text.
+- I have used `#292929` for the background footer.
+- I have used `#FFFFFF` for the main body background.
+
