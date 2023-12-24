@@ -448,7 +448,7 @@ h4 img{
     color:#E7D49E;
 }
 
-/* mobile device home page */
+/* tablet sized device home page */
 
 @media screen and (max-width: 943px){
     
@@ -512,4 +512,69 @@ h4 img{
         border-radius: 5px;
         }
     
+}
+
+/* mobile sized device home page */
+@media screen and (max-width: 600px) {
+
+    .hero-about {
+        background: rgba(66, 91, 88, 0.2);
+        width: 210px;
+        height: 200px;
+        top: 150px;
+        right: 100px;
+        position: absolute;
+    }
+
+    .hero-about h2 {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .hero-hr {
+        width: 100px;
+        border: solid 2px #E7D49E;
+        margin: 0 55px 16px;
+    }
+
+    .hero-about p {
+        font-size: 18px;
+    }
+
+    .btn-hero-about {
+        font-size: 1rem;
+        border: solid 0.5px #E7D49E;
+        position: absolute;
+        left: 50px;
+        bottom: -5px;
+    }
+
+    .hotel-image-link,
+    .restaurant-image-link {
+        margin: 20px;
+        width: 100%;
+    }
+
+    /* about section */
+
+    .main-about {
+        width: 415px;
+        font-size: 1rem;
+        position: relative;
+        left: 2px;
+        top: 50px;
+        padding: 10px;
+    }
+
+    /* location and map */
+
+    .location {
+        width: 415px;
+        position: relative;
+        left: 2px;
+        top: 60px;
+        border: #425B58 solid 1px;
+        border-radius: 5px;
+    }
+
 }
