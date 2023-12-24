@@ -597,3 +597,12 @@ h4 img{
     background: rgba(66, 91, 88, 0.4);
     position: relative;
 }
+
+.form-box{
+    height:500px;
+    width:400px;
+    background:#E7D49E;
+    position: relative;
+    top: 50px;
+    left:100px;
+}

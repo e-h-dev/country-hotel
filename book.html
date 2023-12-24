@@ -19,7 +19,7 @@
             <!--logo-home-link-->
             <!-- <a class="navbar-brand" href="#"><img src="/"></a> -->
             <!--title-->
-            <a class="navbar-brand" href="#"><img class="nav-img" src="/assets/images/logo.png" alt="Logo"><a>
+            <a class="navbar-brand" href="index.html"><img class="nav-img" src="/assets/images/logo.png" alt="Logo"><a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-controls="mobile-navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fa-solid fa-bars toggler"></i></span>
             </button>
@@ -28,7 +28,7 @@
                 <!--nav-links-->
                 
                 <ul class="navbar-nav ml-auto uppercase nav-fonts">
-                    <li class="nav-item"><a class="nav-link" href="#">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">hotel</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -60,11 +60,20 @@
         <div class="hero-image-book">
             <!--cover over hero image-->
             <div class="opaque-book">
+                <!--backgrond box for form-->
                 <div class="form-box">
+                    <!--main form section-->
                     <form action="https://formdump.codeinstitute.net" method="POST">
-                        <input type="text" required>
-                        <input type="email" required>
-                        <input type="number" required>
+                        <label for="fname">Enter your first name:</label>
+                        <input id="fname" type="text" required>
+                        <label for="midname">Enter your middle name:</label>
+                        <input id="midname" type="text">
+                        <label for="lname">Enter your last name:</label>
+                        <input id="lname" type="text" required>
+                        <label for="email">Enter your email address:</label>
+                        <input id="email" type="email" required>
+                        <label for="phone">Enter your Phone number:</label>
+                        <input id="phone" type="text" required>
                         <input type="submit">
                     </form>
                 </div>
