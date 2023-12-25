@@ -34,7 +34,10 @@ a:hover{
    
 .main-font{
     font-family:KoHo, sans-serif;
+}
 
+.dark-font{
+    color:#425B58
 }
 
 .main-font-light {
@@ -600,9 +603,41 @@ h4 img{
 
 .form-box{
     height:500px;
-    width:400px;
-    background:#E7D49E;
+    width:1000px;
+    background:rgba(231, 212, 158, 0.7);
     position: relative;
     top: 50px;
-    left:100px;
+    left:150px;
+    border:solid 3px #927242;
+    border-radius: 5px;
+}
+
+.float-left{
+    float:left;
+}
+
+label{
+    display: block;
+}
+
+legend h1,
+legend h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-input{
+    width:230px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input[type=text],
+input[type=email],
+input[type=date]{
+    width:210px;
+    height:40px;
+    background:#425B58;
+    border:solid 2px #927242;
+    border-radius: 5px;
 }
