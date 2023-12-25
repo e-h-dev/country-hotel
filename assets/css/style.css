@@ -110,10 +110,14 @@ a:hover{
     background:#E7D49E;
     color:#425B58;
     height:95px;
+    width:100%;
+    margin-left:0;
 }
 
 .active{
-    border-bottom: 2px inset #E7D49E;
+    border-bottom: 2px solid #E7D49E;
+    width:70px;
+    margin-left:40px;
 }
 
 .dropdown-menu{
@@ -606,8 +610,8 @@ h4 img{
     width:1000px;
     background:rgba(231, 212, 158, 0.7);
     position: relative;
-    top: 50px;
-    left:150px;
+    top: 80px;
+    left:180px;
     border:solid 3px #927242;
     border-radius: 5px;
 }
@@ -642,7 +646,7 @@ input[type=date]{
     border-radius: 5px;
 }
 
-/* change default radio style (https: //markheath.net/post/customize-radio-button-css) */
+/* change default radio style (credit to w3school) */
 
 .radio input{
     position: absolute;
@@ -669,7 +673,7 @@ input[type=date]{
 
 .radio input:checked ~ .checkmark {
     background-color: #E7D49E;
-    border:solid 2px #927242
+    border:solid 2px #927242;
     border-radius: 5px;
 }
 
