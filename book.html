@@ -87,11 +87,33 @@
                             <legend class="uppercase main-font dark-font"><h2>your holiday</h2></legend>
                             <div class="float-left ml-3 main-font dark-font uppercase form-input">
                                 <label for="arrival">Arrival Date:</label>
-                                <input id="arrival" name="arrival" type="date">
+                                <input id="arrival" name="arrival" type="date" required>
                             </div>
                             <div class="float-left ml-3 main-font dark-font uppercase form-input">
                                 <label for="departure">Departure Date:</label>
-                                <input id="departure" name="departure" type="date">
+                                <input id="departure" name="departure" type="date" required>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="uppercase main-font dark-font"><h2>about your stay</h2></legend>
+                            <p class="float-left ml-3 main-font dark-font uppercase form-input radio">Choose a bedroom:</p>
+                            <div class="float-left ml-3 main-font dark-font uppercase form-input radio">
+                                <label for="king">King
+                                    <input id="king" name="bedroom" value="king" type="radio" checked="checked" required>
+                                    <div class="checkmark"></div>
+                                </label>
+                            </div>
+                            <div class="float-left ml-3 main-font dark-font uppercase form-input radio">
+                                <label for="twin">Twin
+                                    <input id="twin" name="bedroom" value="twin" type="radio" required>
+                                    <div class="checkmark"></div>
+                                </label>
+                            </div>
+                            <div class="float-left ml-3 main-font dark-font uppercase form-input radio">
+                                <label for="either">I don't care!
+                                    <input id="either" name="bedroom" value="either" type="radio" checked="checked" required>
+                                    <div class="checkmark"></div>
+                                </label>
                             </div>
                         </fieldset>
                         <input type="submit" value="Book Now!">
