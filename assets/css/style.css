@@ -589,7 +589,7 @@ h4 img{
 /* styles for hotel page */
 
 .hero-image-hotel-page {
-    height: 400px;
+    height: 500px;
     width: 100%;
     position: relative;
     background-image: url("../images/hotel-image.jpg");
@@ -598,36 +598,81 @@ h4 img{
     background-size: cover;
 }
 
-.hero-hotel-info{
-    background: rgba(66, 91, 88, 0.2);
-    width: 400px;
-    height: 300px;
-    top: 150px;
-    right: 400px;
-    position: absolute;
+.opaque-hotel{
+    width: 100%;
+    height: 500px;
+    background: rgba(66, 91, 88, 0.4);
+    position: relative;
 }
 
-.bedrooms,
-.bedroom-king{
+.hero-hotel-info{
+    background: rgba(66, 91, 88, 0.4);
+    width: 400px;
+    height: 280px;
+    top: 150px;
+    right: 450px;
+    position: absolute;
+    padding:10px;
+}
+
+.hero-hotel-info p{
+    font-family: Questrial, sans-serif;
+        font-weight: 400;
+        color: #F0F1C5;
+        text-align: center;
+        font-size: 24px;
+}
+
+.btn-hero-hotel-info{
+    background: #425B58;
+    color: #E7D49E;
+    font-family: KoHo, sans-serif;
+    font-size: 1.2rem;
+    border: solid 1px #E7D49E;
+    position: absolute;
+    left: 120px;
+    bottom: 5px;
+}
+
+.btn-hero-hotel-info:hover{
+    background: #E7D49E;
+    color: #425B58
+}
+
+.king-image{
+    background-image: url("../images/king-bed.jpg");
+}
+
+.double-image {
+    background-image: url("../images/double-bed.jpg");
+}
+
+.twin-image {
+    background-image: url("../images/twin-bed.jpg");
+}
+
+.king-image,
+.double-image,
+.twin-image {
     height: 300px;
+    width: 100px;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 10px;
-    right: 5px;
-    left: 5px;
+    margin: 10px;
+    right: 1px;
+    left: 1px;
     top: 20px;
     padding: 0;
 }
 
-.bedrooms{
-    width: 400px;
-}
-
-.bedroom-king{
-    width:300px;
-}
+/* .king-image a,
+.double-image a,
+.twin-image a{
+    height: 300px;
+    width: 100px;
+} */
 
 /* styles for book page */
 
