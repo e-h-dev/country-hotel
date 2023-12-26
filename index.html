@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -17,9 +18,7 @@
         <!--navbar-->
         <nav class="navbar navbar-expand-lg country-hotel-navbar">
             <!--logo-home-link-->
-            <!-- <a class="navbar-brand" href="#"><img src="/"></a> -->
-            <!--title-->
-            <a class="navbar-brand" href="#"><img class="nav-img" src="/assets/images/logo.png" alt="Logo"><a>
+            <a class="navbar-brand" href="index.html"><img class="nav-img" src="/assets/images/logo.png" alt="Logo"><a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-navbar" aria-controls="mobile-navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span><i class="fa-solid fa-bars toggler"></i></span>
             </button>
@@ -28,8 +27,8 @@
                 <!--nav-links-->
                 
                 <ul class="navbar-nav ml-auto uppercase nav-fonts">
-                    <li class="nav-item"><a class="nav-link active" href="#">home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">hotel</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hotel.html">hotel</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                             pricing
@@ -90,32 +89,38 @@
             </div>
         </div>
     </section>
-    <!--feature icons-->
-    <div class="container-fluid feature-icons sub-font">
+    <!--feature icons (not in mobile)-->
+    <div class="container-fluid feature-icons sub-font d-none d-sm-block">
         <div class="row">
             <div class="col-lg-2 col-md-4 col-sm-6">
                 <i class="fa-solid fa-bell-concierge"></i>
-                <p>First Class Service</p>
+                <!-- remove p element for tablet -->
+                <p class="d-none d-lg-block">First Class Service</p>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-6">
                 <i class="fa-solid fa-wheelchair"></i>
-                <p>Fully Accessible</p>
+                <!-- remove p element for tablet -->
+                <p class="d-none d-lg-block">Fully Accessible</p>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-6">
                 <i class="fa-solid fa-dog"></i>
-                <p>Dog friendly</p>
+                <!-- remove p element for tablet -->
+                <p class="d-none d-lg-block">Dog friendly</p>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-6">
                 <i class="fa-solid fa-wifi"></i>
-                <p>Full WIFI throughout</p>
+                <!-- remove p element for tablet -->
+                <p class="d-none d-lg-block">Full WIFI</p>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-6">
                 <i class="fa-solid fa-mug-hot"></i>
-                <p>24 Hours tea and coffee</p>
+                <!-- remove p element for tablet -->
+                <p class="d-none d-lg-block">24 Hours tea and coffee</p>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-6">
                 <i class="fa-solid fa-table-tennis-paddle-ball"></i>
-                <p>Well equiped indoor games room</p>
+                <!-- remove p element for tablet -->
+                <p class="d-none d-lg-block">Indoor games room</p>
             </div>
         </div>
     </div>
@@ -249,10 +254,10 @@
                 <div class="col-md-4">
                     <h5 class="uppercase main-font footer-mobile-text-header footer-text">social links</h5>
                     <div class="footer-social-links footer-sub-text">
-                        <a href="https://www.facebook.com/" target="_blank" class="social-link"><i class="fa-brands fa-square-facebook"></i></a>
-                        <a href="https://www.twitter.com/" target="_blank" class="social-link"><i class="fa-brands fa-square-x-twitter"></i></a>
-                        <a href="https://www.youtube.com/" target="_blank" class="social-link"><i class="fa-brands fa-square-youtube"></i></a>
-                        <a href="https://www.instagram.com/" target="_blank" class="social-link"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank" class="social-link"><i class="fa-brands fa-square-facebook" aria-hidden="true"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank" class="social-link"><i class="fa-brands fa-square-x-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" class="social-link"><i class="fa-brands fa-square-youtube" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="social-link"><i class="fa-brands fa-square-instagram" aria-hidden="true"></i></a>
                     </div>
                 </div>
            </div>

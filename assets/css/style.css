@@ -586,6 +586,18 @@ h4 img{
 
 }
 
+/* styles for hotel page */
+
+.hero-image-hotel-page {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-image: url("../images/hotel-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* styles for book page */
 
 .hero-image-book {
@@ -643,6 +655,16 @@ input[type=date]{
     height:40px;
     background:#425B58;
     border:solid 2px #927242;
+    border-radius: 5px;
+}
+
+input[type=text]:after,
+input[type=email]:after,
+input[type=date]::after {
+    width: 210px;
+    height: 40px;
+    background: #E7D49E;
+    border: solid 2px #927242;
     border-radius: 5px;
 }
 
