@@ -6,18 +6,9 @@ body{
     
 }
 
-header{
-
-}
-
-section{
-
-}
-
 footer{
     background: #2e3f3d;
-    color:#E7D49E
-
+    color:#E7D49E;
 }
 
 /* styling classes */
@@ -87,7 +78,6 @@ a:hover{
 .nav-img{
     height:110px;
     width:300px;
-    /* margin-top: 20px; */
 }
 
 
@@ -213,7 +203,10 @@ a:hover{
 /* footer */
 
 .footer-theme{
-    position: absolute;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background: #2e3f3d;
 }
 
@@ -683,7 +676,7 @@ h4 img{
 
 .king-description{
     width:900px;
-    height:1000px;
+    height:600px;
     position: relative;
     top:50px;
     left:200px;
@@ -699,6 +692,57 @@ h4 img{
 .king-description p{
     text-align: justify;
     font-size: 18px;
+}
+
+/* styles for garden section */
+
+.garden-info{
+    width: 900px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    padding: 20px;
+    background: #F0F1C5;
+}
+
+.garden-info h2{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.garden-info p{
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+.ground-pic{
+    background-image: url("../images/hotel-grounds.jpg");
+}
+
+.flower-pic{
+    background-image: url("../images/hotel-flower-garden.jpg");
+}
+
+.trees-pic{
+    background-image: url("../images/hotel-garden-trees.jpg");
+}
+
+.bird-pic{
+    background-image: url("../images/hotel-garden-bird.jpg");
+}
+
+.ground-pic,
+.flower-pic,
+.trees-pic,
+.bird-pic{
+    width:450px;
+    height:300px;
+    border:solid 3px #425B58;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* styles for book page */
