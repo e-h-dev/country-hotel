@@ -687,9 +687,18 @@ h4 img{
     width: 300px;
 }
 
+
 .king-description{
+    height: 750px;
+}
+
+.double-description{
+    height: 400px;
+}
+
+.king-description,
+.double-description{
     width:900px;
-    height:750px;
     position: relative;
     top:50px;
     left:200px;
