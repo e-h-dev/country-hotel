@@ -682,13 +682,23 @@ h4 img{
 }
 
 .king-description{
-    width:850px;
+    width:900px;
     height:1000px;
     position: relative;
-    top:20px;
-    right:150px;
-    padding:10px;
-    text-align:center;
+    top:50px;
+    left:200px;
+    padding:20px;
+    background: #F0F1C5;
+}
+
+.king-description h1{
+    text-align: center;
+    margin:20px 0;
+}
+
+.king-description p{
+    text-align: justify;
+    font-size: 18px;
 }
 
 /* styles for book page */
