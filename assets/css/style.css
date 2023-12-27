@@ -639,6 +639,14 @@ h4 img{
     color: #425B58
 }
 
+.bedroom-header{
+    margin-left: 25px;
+    margin-right: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center
+}
+
 .king-image{
     background-image: url("../images/king-bed.jpg");
 }
@@ -734,14 +742,20 @@ input[type=number]{
     border-radius: 5px;
 }
 
-input[type=text]:after,
-input[type=email]:after,
-input[type=date]::after {
-    width: 210px;
-    height: 40px;
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=date]:focus,
+input[type=number]:focus {
     background: #E7D49E;
     border: solid 2px #927242;
-    border-radius: 5px;
+    color:#2e3f3d;
+    font-weight:bold;
+}
+
+/* minimise text size for email input, to fit larger email address */
+
+input[type=email]:focus{
+    font-size:0.75rem;
 }
 
 /* change default radio style (credit to w3school) */
