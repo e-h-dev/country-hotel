@@ -708,7 +708,7 @@ h4 img{
 
 .garden-info h2{
     text-align: center;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
 }
 
 .garden-info p{
@@ -732,14 +732,25 @@ h4 img{
     background-image: url("../images/hotel-garden-bird.jpg");
 }
 
+.fountain-pic {
+    background-image: url("../images/garden-fountain.jpg");
+}
+
+.picnic-pic {
+    background-image: url("../images/garden-picnic.jpg");
+}
+
 .ground-pic,
 .flower-pic,
 .trees-pic,
-.bird-pic{
-    width:450px;
-    height:300px;
+.bird-pic,
+.fountain-pic,
+.picnic-pic{
+    width:400px;
+    height:280px;
     border:solid 3px #425B58;
     position: relative;
+    margin: 20px 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
