@@ -687,18 +687,22 @@ h4 img{
     width: 300px;
 }
 
-
 .king-description{
-    height: 750px;
-}
+    width: 900px;
+    height: 900px;
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    padding: 20px;
+    background: #F0F1C5;
+     }
 
-.double-description{
-    height: 400px;
-}
 
-.king-description,
-.double-description{
+.bed-description{
     width:900px;
+    height:800px;
+    font-size:18px;
     position: relative;
     top:50px;
     left:200px;
@@ -706,6 +710,7 @@ h4 img{
     background: #F0F1C5;
 }
 
+.bed-description h1,
 .king-description h1{
     text-align: center;
     margin:20px 0;
@@ -747,21 +752,65 @@ article i{
     float:left;
 }
 
+/* second double bed image */
+
+.double-two {
+    background-image: url("/assets/images/double-bed-2.jpg");
+    width: 300px;
+    height: 230px;
+}
+
+.book{
+    background-image: url("/assets/images/book.jpg");
+    width: 300px;
+    height: 180px;
+}
+
+.double-two,
+.book{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid #425B58 5px;
+    padding: 2px;
+    margin-left: 280px;
+}
+
+
+/* logo-page-breaker */
+
+.logo-page-breaker{
+    background: #2e3f3d;
+    width:900px;
+    height:200px;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    padding: 20px;
+}
+
+.logo-page-breaker-image{
+    background-image: url("/assets/images/footer-logo.png");
+    height: 160px;
+    width: 290px;
+    margin-left: 280px;
+}
+
 /* styles for garden section */
 
 .garden-info{
     width: 900px;
     height: 300px;
     position: relative;
-    top: 100px;
+    top: 50px;
     left: 200px;
-    padding: 20px;
+    padding: 60px;
     background: #F0F1C5;
 }
 
 .garden-info h2{
     text-align: center;
-    /* font-size: 1.25rem; */
 }
 
 .garden-info p{
