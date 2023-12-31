@@ -353,7 +353,10 @@ a:hover{
 .feature-icons{
     position:relative;
     background: #425b58;
-    top:25px;
+    top:5px;
+    height:160px;
+    padding-top: 20px;
+    
 }
 
 .feature-icons i{
@@ -653,8 +656,9 @@ h4 img{
 .bedroom-header{
     margin-left: 25px;
     margin-right: 0;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    /* margin-top: 40px;
+    margin-bottom: 20px; */
+    padding: 30px 0;
     text-align: center
 }
 
@@ -682,7 +686,7 @@ h4 img{
     background-size: cover;
     border:solid #425B58 5px;
     padding: 2px;
-    transition: width 1.5s, height 2s;
+    transition: height 1s;
 }
 
 .king-image a,
@@ -696,8 +700,7 @@ h4 img{
 .king-image:hover,
 .double-image:hover,
 .twin-image:hover{
-    width:350px;
-    height: 400px;
+    height: 330px;
 }
 
 .king-description{
