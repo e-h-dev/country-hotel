@@ -875,13 +875,13 @@ article i{
     background-size: cover;
 }
 
-/* tablet sized device hotel page */
+/* mobile sized device hotel page */
 
-@media screen and (max-width: 943px){
+@media screen and (max-width: 1024px){
     .hero-hotel-info {
         background: rgba(66, 91, 88, 0.4);
-        width: 300px;
-        height: 280px;
+        width: 280px;
+        height: 260px;
         top: 100px;
         left: 270px;
         position: absolute;
@@ -904,6 +904,8 @@ article i{
             font-family: KoHo, sans-serif;
             text-align: center;
             font-size: 14px;
+            padding-top: 6px;
+            padding-bottom: 4px;
             border: solid 1px #E7D49E;
             position: absolute;
             left: 80px;
@@ -918,99 +920,41 @@ article i{
             font-family: KoHo, sans-serif;
             text-align: center;
             font-size: 14px;
+            padding-top: 6px;
+            padding-bottom: 4px;
             border: solid 1px #E7D49E;
             position: absolute;
             bottom: 5px;
             left: 80px;
         }
     
-        .btn-hero-hotel-info:hover,
-        .btn-garden:hover {
-            background: #E7D49E;
-            color: #425B58
-        }
-    
-        .bed-info {
-            background: #E7D49E;
-        }
-    
-        .bedroom-header {
-            margin-left: 25px;
-            margin-right: 0;
-            /* margin-top: 40px;
-        margin-bottom: 20px; */
-            padding: 30px 0;
-            text-align: center
-        }
-    
-        .king-image {
-            background-image: url("../images/king-bed.jpg");
-            right: 2px;
-        }
-    
-        .double-image {
-            background-image: url("../images/double-bed.jpg");
-            right: 1px;
-        }
-    
-        .twin-image {
-            background-image: url("../images/twin-bed.jpg");
-        }
-    
-        .king-image,
-        .double-image,
-        .twin-image {
-            height: 300px;
-            position: relative;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            border: solid #425B58 5px;
-            padding: 2px;
-            transition: height 1s;
-        }
-    
-        .king-image a,
-        .double-image a,
-        .twin-image a {
-            display: inline-block;
-            height: 300px;
-            width: 450px;
-        }
-    
-        .king-image:hover,
-        .double-image:hover,
-        .twin-image:hover {
-            height: 330px;
-        }
-    
         .king-description {
-            width: 900px;
-            height: 1200px;
-            font-size: 18px;
+            width: 95%;
+            height: 1150px;
+            font-size: 16px;
             position: relative;
+            left:20px;
             top: 50px;
-            left: 200px;
-            padding: 20px;
+            padding: 15px;
             background: #F0F1C5;
         }
     
     
         .bed-description {
-            width: 900px;
-            height: 900px;
-            font-size: 18px;
+            width: 95%;
+            height: 850px;
+            font-size: 16px;
             position: relative;
-            top: 50px;
-            left: 200px;
-            padding: 20px;
+            top: 30px;
+            left:20px;
+            padding: 15px;
             background: #F0F1C5;
         }
     
         .bed-description h1,
         .king-description h1 {
             text-align: center;
-            margin: 20px 0;
+            margin: 15px 0;
         }
     
         /* icon size */
@@ -1021,25 +965,23 @@ article i{
     
         .king-description p {
             text-align: justify;
-            font-size: 18px;
+            font-size: 16px;
         }
     
         .bathroom-image {
-            background-image: url("../images/hotel-bathroom.jpg");
-            margin-right: 100px;
-            margin-left: 100px;
+            margin-right: 50px;
+            margin-left: 150px;
         }
     
         .snacks-image {
-            background-image: url("../images/hotel-snacks.jpg");
-            margin-left: 100px;
-            margin-right: 100px;
+            margin-left: 50px;
+            margin-right: 50px;
         }
     
         .bathroom-image,
         .snacks-image {
-            width: 230px;
-            height: 300px;
+            width: 210px;
+            height: 280px;
             position: relative;
             background-position: center;
             background-repeat: no-repeat;
@@ -1052,15 +994,13 @@ article i{
         /* second double bed image */
     
         .double-two {
-            background-image: url("/assets/images/double-bed-2.jpg");
-            width: 300px;
-            height: 230px;
+            width: 280px;
+            height: 210px;
         }
     
         .book {
-            background-image: url("/assets/images/book.jpg");
-            width: 300px;
-            height: 180px;
+            width: 280px;
+            height: 160px;
         }
     
         .double-two,
@@ -1071,7 +1011,7 @@ article i{
             background-size: cover;
             border: solid #425B58 5px;
             padding: 2px;
-            margin-left: 280px;
+            margin-left: 230px;
         }
     
     
@@ -1079,11 +1019,11 @@ article i{
     
         .logo-page-breaker {
             background: #2e3f3d;
-            width: 900px;
+            width: 95%;
             height: 200px;
             position: relative;
-            top: 50px;
-            left: 200px;
+            top: 30px;
+            left: 20px;
             padding: 20px;
         }
     
@@ -1091,52 +1031,24 @@ article i{
             background-image: url("/assets/images/footer-logo.png");
             height: 160px;
             width: 290px;
-            margin-left: 280px;
+            margin-left: 220px;
         }
     
         /* styles for garden section */
     
         .garden-info {
-            width: 900px;
+            width: 95%;
             height: 300px;
             position: relative;
-            top: 50px;
-            left: 200px;
+            top: 30px;
+            left: 20px;
             padding: 60px;
             background: #F0F1C5;
         }
-    
-        .garden-info h2 {
-            text-align: center;
-        }
-    
-        .garden-info p {
-            text-align: justify;
-            font-size: 1.25rem;
-        }
-    
-        .ground-pic {
-            background-image: url("../images/hotel-grounds.jpg");
-        }
-    
-        .flower-pic {
-            background-image: url("../images/hotel-flower-garden.jpg");
-        }
-    
-        .trees-pic {
-            background-image: url("../images/hotel-garden-trees.jpg");
-        }
-    
-        .bird-pic {
-            background-image: url("../images/hotel-garden-bird.jpg");
-        }
-    
-        .fountain-pic {
-            background-image: url("../images/garden-fountain.jpg");
-        }
-    
-        .picnic-pic {
-            background-image: url("../images/garden-picnic.jpg");
+
+        .grounds-gallery{
+            width:95%;
+            padding-right: 30px;
         }
     
         .ground-pic,
@@ -1145,15 +1057,168 @@ article i{
         .bird-pic,
         .fountain-pic,
         .picnic-pic {
-            width: 400px;
-            height: 280px;
+            width: 230px;
+            height: 135px;
             border: solid 3px #425B58;
             position: relative;
-            margin: 20px 0;
+            margin: 10px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
         }
+}
+
+/* tablet sized device hotel page */
+
+@media screen and (max-width: 600px) {
+    .hero-hotel-info {
+        background: rgba(66, 91, 88, 0.4);
+        width: 300px;
+        height: 280px;
+        top: 100px;
+        left: 80px;
+        position: absolute;
+        padding: 10px;
+    }
+
+    .king-description {
+        width: 95%;
+        height: 1350px;
+        font-size: 16px;
+        position: relative;
+        left: 20px;
+        top: 50px;
+        padding: 15px;
+        background: #F0F1C5;
+    }
+
+
+    .bed-description {
+        width: 95%;
+        height: 850px;
+        font-size: 16px;
+        position: relative;
+        top: 30px;
+        left: 20px;
+        padding: 15px;
+        background: #F0F1C5;
+    }
+
+    .bed-description h1,
+    .king-description h1 {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    /* icon size */
+
+    article i {
+        font-size: x-large;
+    }
+
+    .king-description p {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .bathroom-image {
+        margin-right: 50px;
+        margin-left: 150px;
+    }
+
+    .snacks-image {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .bathroom-image,
+    .snacks-image {
+        width: 210px;
+        height: 280px;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: solid #425B58 5px;
+        padding: 2px;
+        float: left;
+    }
+
+    /* second double bed image */
+
+    .double-two {
+        width: 280px;
+        height: 210px;
+    }
+
+    .book {
+        width: 280px;
+        height: 160px;
+    }
+
+    .double-two,
+    .book {
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: solid #425B58 5px;
+        padding: 2px;
+        margin-left: 230px;
+    }
+
+
+    /* logo-page-breaker */
+
+    .logo-page-breaker {
+        background: #2e3f3d;
+        width: 95%;
+        height: 200px;
+        position: relative;
+        top: 30px;
+        left: 20px;
+        padding: 20px;
+    }
+
+    .logo-page-breaker-image {
+        background-image: url("/assets/images/footer-logo.png");
+        height: 160px;
+        width: 290px;
+        margin-left: 220px;
+    }
+
+    /* styles for garden section */
+
+    .garden-info {
+        width: 95%;
+        height: 300px;
+        position: relative;
+        top: 30px;
+        left: 20px;
+        padding: 60px;
+        background: #F0F1C5;
+    }
+
+    .grounds-gallery {
+        width: 95%;
+        padding-right: 30px;
+    }
+
+    .ground-pic,
+    .flower-pic,
+    .trees-pic,
+    .bird-pic,
+    .fountain-pic,
+    .picnic-pic {
+        width: 230px;
+        height: 135px;
+        border: solid 3px #425B58;
+        position: relative;
+        margin: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 /* styles for book page */
