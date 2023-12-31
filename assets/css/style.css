@@ -706,7 +706,7 @@ h4 img{
 
 .king-description{
     width: 900px;
-    height: 900px;
+    height: 1200px;
     font-size: 18px;
     position: relative;
     top: 50px;
@@ -718,7 +718,7 @@ h4 img{
 
 .bed-description{
     width:900px;
-    height:800px;
+    height:900px;
     font-size:18px;
     position: relative;
     top:50px;
