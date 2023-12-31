@@ -96,8 +96,7 @@ a:hover{
 }
 
 
-.nav-link:hover,
-.active{
+.nav-link:hover{
     background:#E7D49E;
     color:#425B58;
     height:95px;
@@ -105,11 +104,13 @@ a:hover{
     margin-left:0;
 }
 
-/* .active{
-    border-bottom: 2px solid #E7D49E;
-    width:70px;
-    margin-left:40px;
-} */
+.active{
+    background: #2e3f3d;
+    color: #E7D49E;
+    height: 95px;
+    width: 100%;
+    margin-left: 0;
+}
 
 .dropdown-menu{
     background: #425B58;
