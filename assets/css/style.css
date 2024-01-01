@@ -1155,6 +1155,36 @@ article i{
 
 .hero-image-restaurant-page{
     background-image: url("/assets/images/restaurant-image.jpg");
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-restaurant-info {
+    background: rgba(66, 91, 88, 0.3);
+    color:#E7D49E;
+    font-size:24px;
+    text-align:center;
+    width: 380px;
+    height: 350px;
+    top: 100px;
+    right: 485px;
+    position: absolute;
+    padding: 20px;
+}
+
+.btn-menu{
+    background: #425B58;
+    color: #E7D49E;
+    font-family: KoHo, sans-serif;
+    font-size: 1.2rem;
+    border: solid 1px #E7D49E;
+    position: absolute;
+    left: 152px;
+    bottom: 10px;
 }
 
 /* styles for book page */
