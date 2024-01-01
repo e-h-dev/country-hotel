@@ -1150,6 +1150,13 @@ article i{
     }
 }
 
+
+/* styles for restuarant page */
+
+.hero-image-restaurant-page{
+    background-image: url("/assets/images/restaurant-image.jpg");
+}
+
 /* styles for book page */
 
 .hero-image-book {
