@@ -1190,11 +1190,25 @@ article i{
     width: 200px;
     height: 300px;
     position: relative;
-    top:10px;
+    top: 10px;
     margin: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
+}
+
+.about-image{
+    background-image: url("/assets/images/restaurant-about.jpg");
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 10px;
+    left:100px;
+    margin: 10px;
+    border:solid 3px #425B58;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .chef-about{
@@ -1207,6 +1221,8 @@ article i{
 .chef-about h2{
     margin:20px 0;
     font-size: 2rem;
+    padding-bottom: 10px;
+    border-bottom: solid 3px #425B58;
 }
 
 .menu-image{
