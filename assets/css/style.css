@@ -328,12 +328,18 @@ a:hover{
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    transition: background-size 3s ease-in-out;
     margin-top:10px;
     right:5px;
     left:5px;
     top:20px;
     padding:0;
+}
+
+.hotel-image-link:hover,
+.restaurant-image-link:hover{
+    background-size: 120%;
 }
 
 .hotel-link{
@@ -350,9 +356,9 @@ a:hover{
     background: rgba(66, 91, 88, 0.6);
 }
 
-.hotel-link:hover {
+/* .hotel-link:hover {
     background: rgba(66, 91, 88, 0.6);
-}
+} */
 
 /* feature icons */
 
@@ -687,7 +693,8 @@ h4 img{
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    transition: background-size 3s ease-in;
     border:solid #425B58 5px;
     padding: 2px;
     transition: height 1s;
@@ -704,7 +711,7 @@ h4 img{
 .king-image:hover,
 .double-image:hover,
 .twin-image:hover{
-    height: 330px;
+    background-size: 120%;
 }
 
 .king-description{
