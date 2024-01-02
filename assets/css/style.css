@@ -31,6 +31,11 @@ a:hover{
     color:#425B58
 }
 
+.light-font{
+    color:#E7D49E
+}
+
+
 .main-font-light {
     font-family: KoHo, sans-serif;
     color: #E7D49E
@@ -1203,7 +1208,7 @@ article i{
     height: 300px;
     position: relative;
     top: 10px;
-    left:100px;
+    left:10px;
     margin: 10px;
     border:solid 3px #425B58;
     background-position: center;
@@ -1212,17 +1217,31 @@ article i{
 }
 
 .chef-about{
-    width:95%;
+    background:#425B58;
+}
+
+.chef-about,
+.restaurant-about{
+    width:100%;
     margin: 20px;
+    padding:40px;
     text-align: justify;
     font-size: 1.2rem;
 }
 
 .chef-about h2{
+    border-bottom: solid 3px #E7D49E;
+}
+
+.restaurant-about h2{
+    border-bottom: solid 3px #425B58;
+}
+
+.chef-about h2,
+.restaurant-about h2{
     margin:20px 0;
     font-size: 2rem;
     padding-bottom: 10px;
-    border-bottom: solid 3px #425B58;
 }
 
 .menu-image{
