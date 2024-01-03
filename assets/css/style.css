@@ -1304,6 +1304,41 @@ article i{
 .menu-link-box{
     background: rgba(231, 212, 158, 0.7)
 }
+
+.menu-header{
+    text-align: center;
+    padding:10px;
+    margin:20px;
+}
+
+.menu-sub-title{
+    text-align:center;
+    height:85px;
+    padding:20px;
+    margin:20px;
+    background: #425B58;
+}
+
+
+.menu-description{
+    margin: 0 0 20px;
+    padding: 10px;
+}
+
+.menu-description p{
+    font-size: 18px;
+}
+
+.menu-description-middle{
+    background: #425b58;
+    margin:0 0 20px;
+    padding:10px;
+}
+
+.menu-description-middle p{
+    font-size: 18px;
+    color:#E7D49E
+}
 /* styles for book page */
 
 .hero-image-book {
