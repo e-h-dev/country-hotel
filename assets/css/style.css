@@ -1284,9 +1284,25 @@ article i{
     background-image: url("/assets/images/salmon.jpg");
 }
 
+.menu-2-1{
+    background-image: url("/assets/images/sea-bream.jpg");
+}
+
+.menu-2-2{
+    background-image: url("/assets/images/lobster.jpg");
+}
+
 .menu-3{
     background-image: url("/assets/images/pasta.jpg");
 } 
+
+.menu-3-1{
+    background-image: url("/assets/images/lasagna.jpg");
+}
+
+.menu-3-2{
+    background-image: url("/assets/images/pizza.jpg");
+}
 
 .menu-link{
     background: rgba(66, 91, 88, 0.3);
