@@ -99,7 +99,7 @@
                             </div>
                             <div class="float-left ml-3 main-font dark-font uppercase form-input">
                                 <label for="child">children:</label>
-                                <input id="child" name="children" type="number" max="6" required>
+                                <input id="child" name="children" type="number" max="6" min="0" required>
                             </div>
                         </fieldset>
                         <fieldset>
@@ -124,8 +124,87 @@
                                 </label>
                             </div>
                         </fieldset>
+                        <fieldset>
+                            <legend class="uppercase main-font dark-font"><h2>restaurant</h2></legend>
+                            <div class="float-left ml-3 main-font dark-font uppercase form-input">
+                                <label for="menu-choice" class="block-label">Choose from our menu</label>
+                                <input id="menu-choice" list="menu" name="menu-chioce">
+                                <datalist id="menu">
+                                    <option value="Steak and Potatoes">
+                                    <option value="Steak and Mash">
+                                    <option value="Beef Wellington">
+                                    <option value="Salmon">
+                                    <option value="Sea Bream">
+                                    <option value="Lobster">
+                                    <option value="Parmesan Penne">
+                                    <option value="Lasagne">
+                                    <option value="Pizza">
+                                </datalist>
+                            </div>
+                            <div class="float-left ml-3 main-font dark-font uppercase form-input">
+                                <label for="meal">how many meals:</label>
+                                <input id="meal" name="number of meals" type="number" max="8" min="1">
+                            </div>
+                            <div class="float-left ml-3 main-font dark-font uppercase form-input">
+                                <label for="menu-choice" class="block-label">second meal</label>
+                                <input id="menu-choice" list="menu" name="menu-choice-2">
+                                <datalist id="menu">
+                                    <option value="Steak and Potatoes">
+                                    <option value="Steak and Mash">
+                                    <option value="Beef Wellington">
+                                    <option value="Salmon">
+                                    <option value="Sea Bream">
+                                    <option value="Lobster">
+                                    <option value="Parmesan Penne">
+                                    <option value="Lasagne">
+                                    <option value="Pizza">
+                                </datalist>
+                            </div>
+                            <div class="float-left ml-3 main-font dark-font uppercase form-input">
+                                <label for="meal">how many meals:</label>
+                                <input id="meal" name="number of meals second meal" type="number" max="8" min="1">
+                            </div>
+                            <div class="float-left ml-3 main-font dark-font uppercase form-input">
+                                <label for="menu-choice" class="block-label">third meal</label>
+                                <input id="menu-choice" list="menu" name="menu-chioce-3">
+                                <datalist id="menu">
+                                    <option value="Steak and Potatoes">
+                                    <option value="Steak and Mash">
+                                    <option value="Beef Wellington">
+                                    <option value="Salmon">
+                                    <option value="Sea Bream">
+                                    <option value="Lobster">
+                                    <option value="Parmesan Penne">
+                                    <option value="Lasagne">
+                                    <option value="Pizza">
+                                </datalist>
+                            </div>
+                            <div class="float-left ml-3 main-font dark-font uppercase form-input">
+                                <label for="meal">how many meals:</label>
+                                <input id="meal" name="number of meals third meal" type="number" max="8" min="1">
+                            </div>
+                            <div class="float-left ml-3 main-font dark-font uppercase form-input">
+                                <label for="menu-choice" class="block-label">fourth meal</label>
+                                <input id="menu-choice" list="menu" name="menu-choice-4">
+                                <datalist id="menu">
+                                    <option value="Steak and Potatoes">
+                                    <option value="Steak and Mash">
+                                    <option value="Beef Wellington">
+                                    <option value="Salmon">
+                                    <option value="Sea Bream">
+                                    <option value="Lobster">
+                                    <option value="Parmesan Penne">
+                                    <option value="Lasagne">
+                                    <option value="Pizza">
+                                </datalist>
+                            </div>
+                            <div class="float-left ml-3 main-font dark-font uppercase form-input">
+                                <label for="meal">how many meals:</label>
+                                <input id="meal" name="number of meals fourth meal" type="number" max="8" min="1">
+                            </div>
+                        </fieldset>
                         <input type="submit" value="Book Now!">
-                        <input type="reset" value="Clear Form">
+                        <input type="reset" value="">
                     </form>
                 </div>
             </div>

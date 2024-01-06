@@ -1355,6 +1355,7 @@ article i{
     font-size: 18px;
     color:#E7D49E
 }
+
 /* styles for book page */
 
 .hero-image-book {
@@ -1375,7 +1376,7 @@ article i{
 }
 
 .form-box{
-    height:700px;
+    height:900px;
     width:1000px;
     background:rgba(231, 212, 158, 0.7);
     position: relative;
@@ -1405,21 +1406,17 @@ legend h2{
     font-size: 18px;
 }
 
-input[type=text],
-input[type=email],
-input[type=date],
-input[type=number]{
-    width:210px;
-    height:40px;
-    background:#425B58;
-    border:solid 2px #927242;
+input{
+    width: 210px;
+    height: 40px;
+    background: #425B58;
+    color: #E7D49E;
+    border: solid 2px #927242;
     border-radius: 5px;
 }
 
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=date]:focus,
-input[type=number]:focus {
+input:focus
+{
     background: #E7D49E;
     border: solid 2px #927242;
     color:#2e3f3d;
@@ -1427,6 +1424,10 @@ input[type=number]:focus {
 }
 
 /* minimise text size for email input, to fit larger email address */
+
+input[type=email]{
+    font-size: 0.75rem;
+}
 
 input[type=email]:focus{
     font-size:0.75rem;
@@ -1463,4 +1464,24 @@ input[type=email]:focus{
     border-radius: 5px;
 }
 
+input[type=submit]{
+    position:absolute;
+    left:40%;
+    top:810px;
+    font-family: KoHo, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
 
+input[type=reset]{
+    position: relative;
+    left:62%;
+    top:28px;
+    width:40px;
+    background-image: url("/assets/images/reset-logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
