@@ -59,3 +59,8 @@ I designed my color scheme, based on the Country Hotel logo. For the logo design
 - I have used `#FFFFFF` for the main body background.
 
 ![Country Hotel Color Scheme](assets/images/colors.jpg)
+
+### Typography
+
+The fonts used in this website are KoHo and Questrial, both these fonts were sugested for the logo by canva. These fonts work well together where the headers are all KoHo uppercase and the rest of the text across the enrtire website is Questrial.
+Both fonts are imported from google fonts asn are used via th import link at the gead of the stylesheet style.css, this links all the text across the pages of the website to the appropriate style annd font.
