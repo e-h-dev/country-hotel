@@ -164,6 +164,7 @@ a:hover{
         background: #E7D49E;
         color: #425B58;
         height: 20px;
+        width:100px;
     }
 
     .dropdown-menu {
@@ -421,7 +422,10 @@ a:hover{
     color:#2e3f3d;
 }
 
-.location h2,
+.location h2{
+    padding: 30px 20px 20px 20px;
+}
+
 .location p{
     padding:0;
     margin:0;
@@ -1199,14 +1203,14 @@ article i{
 
 .chef-image{
     background-image: url("/assets/images/chef.png");
-    width: 200px;
+    width: 400px;
     height: 300px;
     position: relative;
     top: 10px;
     margin: 10px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 50%;
 }
 
 .about-image{
@@ -1356,6 +1360,22 @@ article i{
     color:#E7D49E
 }
 
+@media screen and (max-width: 943px){
+
+    .hero-restaurant-info {
+         right: 25%;
+      }
+}
+
+/* mobile sized device hotel page */
+
+@media screen and (max-width: 600px) {
+
+     .hero-restaurant-info {
+         right:5%;
+      }
+}
+
 /* styles for book page */
 
 .hero-image-book {
@@ -1467,7 +1487,7 @@ input[type=email]:focus{
 input[type=submit]{
     position:absolute;
     left:40%;
-    top:810px;
+    top:830px;
     font-family: KoHo, sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -1484,4 +1504,54 @@ input[type=reset]{
     background-image: url("/assets/images/reset-logo.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* tablet sized device book page */
+
+@media screen and (max-width: 943px){
+
+    .form-box{
+        height:1040px;
+        width:70%;
+        top: 80px;
+        left:15%;
+    } 
+
+    .radio input{
+        width:100px;
+  }
+
+    legend h6{
+       margin-left:25px;
+    }
+
+    input[type=submit]{
+    top:932px;
+    left:23%;
+  }
+}
+
+/* mobile sized device home page */
+@media screen and (max-width: 600px) {
+  .hero-image-book {
+            height: 1600px;
+   }
+
+  .opaque-book{
+          height: 1600px;
+       }
+
+  .form-box{
+         height:1400px;
+  }
+
+  .radio input{
+        width:30px;
+  }
+
+  input[type=submit]{
+    top:1306px;
+    left:15%;
+    width:136px;
+  }
 }
