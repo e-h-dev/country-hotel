@@ -1483,7 +1483,7 @@ input[type=email]:focus{
 input[type=submit]{
     position:absolute;
     left:40%;
-    top:830px;
+    top:810px;
     font-family: KoHo, sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -1507,14 +1507,14 @@ input[type=reset]{
 @media screen and (max-width: 943px){
 
     .form-box{
-        height:1040px;
+        height:1020px;
         width:70%;
         top: 80px;
         left:15%;
     } 
 
-    .radio input{
-        width:100px;
+    .tab-mob-radio{
+        width:160px;
   }
 
     legend h6{
@@ -1522,7 +1522,7 @@ input[type=reset]{
     }
 
     input[type=submit]{
-    top:932px;
+    top:912px;
     left:23%;
   }
 }
@@ -1541,12 +1541,12 @@ input[type=reset]{
          height:1400px;
   }
 
-  .radio input{
-        width:30px;
+  .tab-mob-radio{
+        width:80px;
   }
 
   input[type=submit]{
-    top:1306px;
+    top:1288px;
     left:15%;
     width:136px;
   }
