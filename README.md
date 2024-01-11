@@ -16,6 +16,8 @@
       - [Site Visitor Goals](#site-visitor-goals)
 - [Design](#design)
     - [Color Scheme](#color-scheme)
+    - [typography](#typography)
+- [Bugs](#bugs)
 
 # About
 
@@ -67,7 +69,8 @@ Both fonts are imported from google fonts asn are used via th import link at the
 
 ## Bugs
 
-| No | Bug | How I fixe the bug |
+| No | Bug | How I fixed the bug |
+| :--- | :--- | :--- |
 | 1 | The active class on the nav section was a border-bottom solid line, the line was not semetrical below each of nav elements. | I changed the active class, by giving each list item a darker background colour, than the nav bar. |
 | 2 | The drop down elements in the navbar, did not dispaly properly on mobile and tablet, the information was blocked by the next list item. | After trying out a few things I realised the dropdown information was only blocked by the second dropdown link, I then changed the order of the nav links. |
 | 3 | After I changed the order of the nav links the semetry of the whole nav bar looked odd on desktop | I decided to create two nav links for resturant.html one after both dropdown links for desktop, using the .d bootstrap class I made this one visible only for desktop. The second restaurant.html I placed between the dropdown links and using the .d bootstrap class made it visible only for mobile and tablet. |
