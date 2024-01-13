@@ -67,8 +67,12 @@ a:hover{
 .country-hotel-navbar {
     background: #425B58;
     height: 120px;
+    width:100%;
+    border-bottom:solid #2e3f3d 3px;
     color:#E7D49E;
     padding-right: 0;
+    position:fixed;
+    z-index:1;
 }
 
 .navbar-collapse{
@@ -121,6 +125,12 @@ a:hover{
     font-family: KoHo, sans-serif;
     color: #E7D49E;
 }
+
+.space-box{
+    width:100%;
+    height:120px;
+    position: relative;
+ }
 
 /* mobile devices navbar */
 
