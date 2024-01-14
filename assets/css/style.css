@@ -620,6 +620,8 @@ h4 img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .opaque-hotel{
@@ -633,8 +635,7 @@ h4 img{
     background: rgba(66, 91, 88, 0.4);
     width: 400px;
     height: 350px;
-    top: 150px;
-    right: 450px;
+    margin-top: 150px;
     position: absolute;
     padding:10px;
 }
@@ -738,13 +739,17 @@ h4 img{
     background-size: 120%;
 }
 
+.bed-info-parent{
+    display: flex;
+    justify-content: center;
+}
+
 .king-description{
     width: 900px;
     height: 1200px;
     font-size: 18px;
     position: relative;
-    top: 50px;
-    left: 200px;
+    margin-top: 50px;
     padding: 20px;
     background: #F0F1C5;
      }
@@ -755,8 +760,7 @@ h4 img{
     height:900px;
     font-size:18px;
     position: relative;
-    top:50px;
-    left:200px;
+    margin-top:50px;
     padding:20px;
     background: #F0F1C5;
 }
@@ -836,8 +840,7 @@ article i{
     width:900px;
     height:200px;
     position: relative;
-    top: 50px;
-    left: 200px;
+    margin-top: 20px;
     padding: 20px;
 }
 
@@ -854,8 +857,7 @@ article i{
     width: 900px;
     height: 300px;
     position: relative;
-    top: 50px;
-    left: 200px;
+    margin-top: 20px;
     padding: 60px;
     background: #F0F1C5;
 }
@@ -1195,6 +1197,8 @@ article i{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-restaurant-info {
@@ -1205,7 +1209,6 @@ article i{
     width: 380px;
     height: 350px;
     top: 100px;
-    right: 485px;
     position: absolute;
     padding: 20px;
 }
