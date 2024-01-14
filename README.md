@@ -46,7 +46,8 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 
 ### Colour Scheme
 
-I designed my colour scheme, based on the Country Hotel logo. For the logo design I used the website [Canva](https://www.canva.com/){:target="_blank}. Based on the colour of the logo I have designed the website.
+I designed my colour scheme, based on the Country Hotel logo. For the logo design I used the website [Canva](https://www.canva.com/){:target="_blank"}
+. Based on the colour of the logo I have designed the website.
 
 - I have used `#425B58` for the dark text in the light background sections of the web pages.
 - I have used `#E7D49E` for the light text in the dark background sections of the web pages.
