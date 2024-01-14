@@ -46,8 +46,7 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 
 ### Colour Scheme
 
-I designed my colour scheme, based on the Country Hotel logo. For the logo design I used the website [Canva](https://www.canva.com/){:target="_blank"}
-. Based on the colour of the logo I have designed the website.
+I designed my colour scheme, based on the Country Hotel logo. For the logo design I used the website [Canva](https://www.canva.com/). Based on the colour of the logo I have designed the website.
 
 - I have used `#425B58` for the dark text in the light background sections of the web pages.
 - I have used `#E7D49E` for the light text in the dark background sections of the web pages.
@@ -65,7 +64,7 @@ I designed my colour scheme, based on the Country Hotel logo. For the logo desig
 
 ### Typography
 
-The fonts used in this website are KoHo and Questrial, both these fonts were suggested for the logo by [Canva](https://www.canva.com/){:target="_blank}. These fonts work well together. I used KoHo in uppercase for th headers and for the rest of the text across the website I have used Questrial.
+The fonts used in this website are KoHo and Questrial, both these fonts were suggested for the logo by [Canva](https://www.canva.com/). These fonts work well together. I used KoHo in uppercase for th headers and for the rest of the text across the website I have used Questrial.
 Both fonts are imported from google fonts and are used via the import link at the head of the [stylesheet](assets/css/style.css), this links all the text across the pages of the website to the appropriate style and font.
 
 ## Bugs
@@ -76,3 +75,7 @@ Both fonts are imported from google fonts and are used via the import link at th
 | 2 | The drop-down elements in the navbar, did not dispaly properly on mobile and tablet. The information was blocked by the next list item. | After trying out a various ideas, I realised the drop-down information was only blocked by the second drop-down link, and not by the next nav-item. I then changed the order of the nav links, now one drop-down did not drop over the other. |
 | 3 | After I changed the order of the nav links the symmetry of the whole nav bar looked odd on desktop. | I decided to create two nav links for navigation to resturant.html one after both dropdown links for desktop, using the .d bootstrap class I made this one visible only for desktop. The second link to restaurant.html I placed between the dropdown links and using the .d bootstrap class made it visible only for mobile and tablet. |
 | 4 | On restaurant.html I used bootstraps row and col classes to create the information article, the chef info in one column and the genaral info in a second column. After I finished the styling of the chef info and strated with the general info, it came out below the chef info even on desktop. | I spent long time checknig my code to see if I had made mistakes, I compare them to the bootstrap documentation and I could not find the reason for the bug. I tested the link to bootstrap it was working. I then used Devtools and checked multiple times, I relised eventually that the class chef-about which styles the chef info paragraph, I had inserted into the main div of the column (together with the bootstrap class). The chef-about class creates a box whoch is smaller than the overall column width, this therefore caused the next column to start at the edge of the column which was below the chef info. I fixed the bug by creating a separate div for the chef-about class, the main column therefore, used the full width of the page. this gave the space for the next column to start beside the first, rather than under it. |
+| 5 | Horizontal scrolling. | fixed with devtools |
+| 6 | Fixed navbar blocks hero image. | I created a div above the the hero image and gave it a height of 120px, this pushed down th hero image. The navbar only covers the div and not the hero image. |
+| 7 | The fixed navbar made the elements in the page look messy, they were the same colour as the navbar but have different widths. When scrolling down the moing elements toucjing the navbar crated an uneven edge to the navbar. | I gave the navbar a bottom border of 3px with  darker colour, this gave the navbar an appearance of being above the ret of the page on the z-index. |
+| 8 | When testing the page on  a wider device the info box in the hero image was not centered. | I researched the topic of parent and child ivs and I found the best and most relavant way to center a child in a parent, by using the flexbox in css. this I found in a blog by [openreplay](https://blog.openreplay.com/five-css-ways-of-centering-a-child-in-its-parent/). |
