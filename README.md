@@ -46,7 +46,7 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 
 ### Colour Scheme
 
-I designed my colour scheme, based on the Country Hotel logo. For the logo design I used the website [Canva](https://www.canva.com/). Based on the colour of the logo I have designed the website.
+I designed my colour scheme, based on the Country Hotel logo. For the logo design I used the website [Canva](https://www.canva.com/){:target="_blank}. Based on the colour of the logo I have designed the website.
 
 - I have used `#425B58` for the dark text in the light background sections of the web pages.
 - I have used `#E7D49E` for the light text in the dark background sections of the web pages.
@@ -64,7 +64,7 @@ I designed my colour scheme, based on the Country Hotel logo. For the logo desig
 
 ### Typography
 
-The fonts used in this website are KoHo and Questrial, both these fonts were suggested for the logo by [Canva](https://www.canva.com/). These fonts work well together. I used KoHo in uppercase for th headers and for the rest of the text across the website I have used Questrial.
+The fonts used in this website are KoHo and Questrial, both these fonts were suggested for the logo by [Canva](https://www.canva.com/){:target="_blank}. These fonts work well together. I used KoHo in uppercase for th headers and for the rest of the text across the website I have used Questrial.
 Both fonts are imported from google fonts and are used via the import link at the head of the [stylesheet](assets/css/style.css), this links all the text across the pages of the website to the appropriate style and font.
 
 ## Bugs
