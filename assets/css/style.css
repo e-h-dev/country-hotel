@@ -1466,8 +1466,7 @@ input{
     border-radius: 5px;
 }
 
-input:focus
-{
+input:focus{
     background: #E7D49E;
     border: solid 2px #927242;
     color:#2e3f3d;
@@ -1573,6 +1572,10 @@ input[type=reset]{
 
   .form-box{
          height:1400px;
+  }
+
+  input{
+    width:260px;
   }
 
   .tab-mob-radio{
