@@ -1624,12 +1624,16 @@ input[type=reset]{
 }
 
 .booking-box{
-    height:350px;
+    height:400px;
     width:800px;
     background:rgba(231, 212, 158, 0.7);
     position: relative;
     border:solid 3px #927242;
     border-radius: 5px;
+}
+
+.thumbs-up{
+    font-size: xx-large;
 }
 
 .booking-box article{
