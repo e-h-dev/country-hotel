@@ -9,11 +9,6 @@ footer{
 
 /* styling classes */
 
-a {
-   text-decoration: none;
-   color:#E7D49E;
-}
-
 a:hover{
     text-decoration: none;
 
