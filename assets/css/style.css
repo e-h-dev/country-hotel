@@ -1308,6 +1308,15 @@ article i{
     
 }
 
+.menu-image-item{
+    border: solid 3px #425B58;
+    margin: 20px 10px;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background-size: 100%;
+}
+
 .menu-second{
     background-image: url("/assets/images/roast-beef.jpg");
 }
