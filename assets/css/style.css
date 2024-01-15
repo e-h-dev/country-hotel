@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500;600;700&family=Questrial&display=swap');
 
-/* main page styles */
+/* --------------------------------------------- main styles for all pages */
 
 footer{
     background: #2e3f3d;
@@ -102,6 +102,7 @@ a:hover{
     height:95px;
     width:100%;
     margin-left:0;
+    border-radius: 5px;
 }
 
 .active{
@@ -110,6 +111,7 @@ a:hover{
     height: 95px;
     width: 100%;
     margin-left: 0;
+    border-radius: 5px;
 }
 
 .dropdown-menu{
