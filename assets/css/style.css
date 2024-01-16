@@ -415,7 +415,7 @@ a:hover{
     padding:10px;
 }
 
-.main-about h1{
+.main-about h2{
     text-align:center;
     font-family: KoHo, sans-serif;
 }
@@ -451,8 +451,10 @@ a:hover{
     margin:0;
 }
 
-iframe{
-    position: inherit;
+.location iframe{
+    height:450px;
+    width:100%;
+    border:#927242 solid 2px;
 }
 
 /* reveiws section */

@@ -31,7 +31,7 @@
                     <li class="nav-item"><a class="nav-link" href="hotel.html" aria-label="hotel page">hotel</a></li>
                     <!--drop down nav item pricing-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop-price" data-toggle="dropdown">
                             pricing
                         </a>
                         <div class="dropdown-menu">
@@ -43,7 +43,7 @@
                     <li class="nav-item d-lg-none"><a class="nav-link" href="restaurant.html" aria-label="restaurant page">restaurant</a></li>
                     <!--drop down nav item contact-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop-contact" data-toggle="dropdown">
                             contact
                         </a>
                         <div class="dropdown-menu">
@@ -135,10 +135,10 @@
         </div>
     </div>
     <!--/feature icons-->
-    <section class="main-about-parent">
+    <div class="main-about-parent">
         <!--home page hotel information-->
         <article class="main-about">
-            <h1 class="uppercase"><i class="fa-solid fa-hotel"></i> country hotel</h1>
+            <h2 class="uppercase"><i class="fa-solid fa-hotel"></i> country hotel</h2>
             <p>
                 Country Hotel is a small family run hotel, dedicated to offering our guests the best the Yorkshire Dales have to offer -
                 top quality produce and cooking, warm welcoming hospitality, and a relaxing and homely place to rest and recharge. Owned
@@ -162,7 +162,7 @@
                 <i class="fa-solid fa-handshake" aria-hidden="true"></i> Tom and Jane Winters.
             </p>
         </article>
-    </section>
+    </div>
     <section class="location-parent">
         <!--address-->
         <div class="location">
@@ -174,11 +174,7 @@
             <!--google map frame-->
             <!--taken from https://www.maps.ie/create-google-map/-->
             <div style="width: 100%">
-                <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0"
-                    marginwidth="0"
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Keld+(Country%20Hotel)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" title="mapFrame"><a
-                        href="https://www.maps.ie/population/">Population calculator map</a>
-                </iframe>
+                <iframe scrolling="no" id="gmap_canvas" src="https://maps.google.com/maps?width=800&amp;height=403&amp;hl=en&amp;q=%20keld+(keld)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://google-map-generator.com/'>Maps Generator</a>
             </div>
         </div>
     </section>
