@@ -815,13 +815,13 @@ article i{
 /* second double bed image */
 
 .double-two {
-    background-image: url("/assets/images/double-bed-2.jpg");
+    background-image: url("/country-hotel/assets/images/double-bed-2.jpg");
     width: 300px;
     height: 230px;
 }
 
 .book{
-    background-image: url("/assets/images/book.jpg");
+    background-image: url("/country-hotel/assets/images/book.jpg");
     width: 300px;
     height: 180px;
 }
@@ -850,7 +850,7 @@ article i{
 }
 
 .logo-page-breaker-image{
-    background-image: url("/assets/images/footer-logo.png");
+    background-image: url("/country-hotel/assets/images/footer-logo.png");
     height: 160px;
     width: 290px;
     margin-left: 280px;
@@ -1071,7 +1071,7 @@ article i{
         }
     
         .logo-page-breaker-image {
-            background-image: url("/assets/images/footer-logo.png");
+            background-image: url("/country-hotel/assets/images/footer-logo.png");
             height: 160px;
             width: 290px;
             margin-left: 220px;
@@ -1195,7 +1195,7 @@ article i{
 /* ---------------------------------------------------------------- styles for restuarant page */
 
 .hero-image-restaurant-page{
-    background-image: url("/assets/images/restaurant-image.jpg");
+    background-image: url("/country-hotel/assets/images/restaurant-image.jpg");
     height: 500px;
     width: 100%;
     position: relative;
@@ -1230,7 +1230,7 @@ article i{
 }
 
 .chef-image{
-    background-image: url("/assets/images/chef.png");
+    background-image: url("/country-hotel/assets/images/chef.png");
     width: 400px;
     height: 300px;
     position: relative;
@@ -1242,7 +1242,7 @@ article i{
 }
 
 .about-image{
-    background-image: url("/assets/images/restaurant-about.jpg");
+    background-image: url("/country-hotel/assets/images/restaurant-about.jpg");
     width: 500px;
     height: 300px;
     position: relative;
@@ -1304,7 +1304,7 @@ article i{
 }
 
 .menu-1{
-    background-image: url("/assets/images/steak.jpg");
+    background-image: url("/country-hotel/assets/images/steak.jpg");
     
 }
 
@@ -1318,35 +1318,35 @@ article i{
 }
 
 .menu-second{
-    background-image: url("/assets/images/roast-beef.jpg");
+    background-image: url("/country-hotel/assets/images/roast-beef.jpg");
 }
 
 .menu-1-2{
-    background-image: url("/assets/images/beef-wellington.jpg");
+    background-image: url("/country-hotel/assets/images/beef-wellington.jpg");
 }
 
 .menu-2{
-    background-image: url("/assets/images/salmon.jpg");
+    background-image: url("/country-hotel/assets/images/salmon.jpg");
 }
 
 .menu-2-1{
-    background-image: url("/assets/images/sea-bream.jpg");
+    background-image: url("/country-hotel/assets/images/sea-bream.jpg");
 }
 
 .menu-2-2{
-    background-image: url("/assets/images/lobster.jpg");
+    background-image: url("/country-hotel/assets/images/lobster.jpg");
 }
 
 .menu-3{
-    background-image: url("/assets/images/pasta.jpg");
+    background-image: url("/country-hotel/assets/images/pasta.jpg");
 } 
 
 .menu-3-1{
-    background-image: url("/assets/images/lasagna.jpg");
+    background-image: url("/country-hotel/assets/images/lasagna.jpg");
 }
 
 .menu-3-2{
-    background-image: url("/assets/images/pizza.jpg");
+    background-image: url("/country-hotel/assets/images/pizza.jpg");
 }
 
 .menu-link{
@@ -1544,7 +1544,7 @@ input[type=reset]{
     left:62%;
     top:28px;
     width:40px;
-    background-image: url("/assets/images/reset-logo.png");
+    background-image: url("/country-hotel/assets/images/reset-logo.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
