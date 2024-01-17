@@ -78,9 +78,20 @@ As the website is for country hotel, which is located in the heart of the Yorksh
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
+#### Home Page
+
 ![Home Page](assets/wireframes/home-wireframe.png)
+
+#### Hotel Page
+
 ![Hotel Page](assets/wireframes/hotel-wireframe.png)
+
+#### Restaurant Page
+
 ![Restaurant Page](assets/wireframes/restaurant-wireframe.png)
+
+#### Book Page
+
 ![Book Page](assets/wireframes/book-wireframe.png)
 
 ### Features
