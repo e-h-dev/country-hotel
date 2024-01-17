@@ -246,11 +246,7 @@ a:hover{
 
 .footer-sub-text {
     text-align: center;
-    margin: 0,20px;
-}
-
-.footer-social-links{
-    float:center;
+    margin: 0 20px;
 }
 
 .social-link{
@@ -528,7 +524,7 @@ h4 img{
 
     .hotel-image-link,
     .restaurant-image-link {
-        margin: 20px 350x;
+        margin: 20px 35px;
         width: 100%;
         }
 
@@ -975,6 +971,12 @@ article i{
         .twin-image{
             height: 180px;
         }
+
+        .king-image a,
+        .double-image a,
+        .twin-image a{
+            width: 250px;
+        }
     
         .king-description {
             width: 95%;
@@ -1122,6 +1124,12 @@ article i{
         top: 50px;
         position: absolute;
         padding: 10px;
+    }
+
+    .king-image a,
+    .double-image a,
+    .twin-image a{
+        width: 450px;
     }
 
     .king-description {
