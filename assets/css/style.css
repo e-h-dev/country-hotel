@@ -1443,7 +1443,7 @@ article i{
 }
 
 .form-box{
-    height:900px;
+    height:800px;
     width:1000px;
     background:rgba(231, 212, 158, 0.7);
     position: relative;
@@ -1482,6 +1482,20 @@ input,
     border-radius: 5px;
 }
 
+.book-now{
+    position: relative;
+    left: 350px;
+    bottom:40px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.book-now:hover{
+    background:#E7D49E;
+    color:#425b58;
+}
+
 input:focus{
     background: #E7D49E;
     border: solid 2px #927242;
@@ -1499,48 +1513,6 @@ input[type=email]:focus{
     font-size:0.75rem;
 }
 
-/* change default radio style (credit to w3school) */
-
-.radio input{
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.checkmark{
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 20px;
-    width: 20px;
-    background-color: #425B58;
-    border:solid 2px #927242;
-    border-radius: 5px;
-}
-
-.checkmark:hover{
-    background:#927242;
-    border: solid 2px #425B58;
-    border-radius:5px
-}
-
-.radio input:checked ~ .checkmark {
-    background-color: #E7D49E;
-    border:solid 2px #927242;
-    border-radius: 5px;
-}
-
-input[type=submit]{
-    position:absolute;
-    left:40%;
-    top:810px;
-    font-family: KoHo, sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    
-}
 
 input[type=reset]{
     position: relative;
@@ -1557,7 +1529,7 @@ input[type=reset]{
 @media screen and (max-width: 943px){
 
     .form-box{
-        height:1020px;
+        height:970px;
         width:70%;
         top: 80px;
     } 
@@ -1569,11 +1541,6 @@ input[type=reset]{
     .book-h6{
        margin-left:25px;
     }
-
-    input[type=submit]{
-    top:912px;
-    left:23%;
-  }
 }
 
 /* mobile sized device home page */
@@ -1587,7 +1554,7 @@ input[type=reset]{
        }
 
   .form-box{
-         height:1400px;
+         height:1300px;
   }
 
   input{
@@ -1598,11 +1565,6 @@ input[type=reset]{
         width:80px;
   }
 
-  input[type=submit]{
-    top:1288px;
-    left:15%;
-    width:136px;
-  }
 }
 
 /* ------------------------------------------------------------- booking-confirmation-page */
