@@ -1623,17 +1623,26 @@ input[type=reset]{
     text-align: center;
 }
 
-.return-home{
-    position: relative;
-    text-align: center;
-}
-
 .menu-link-confirmation{
     color:#2e3f3d;
 }
 
 .menu-link-confirmation:hover{
     color:#927242;
+}
+
+.return-home{
+    position: relative;
+    text-align: center;
+}
+
+.logo-home-return{
+    width:300px;
+    transition: width 3s ease-in-out;
+}
+
+.logo-home-return:hover{
+    width:380px;
 }
 
 /* tablet sized device booking-confirmation page */
