@@ -78,10 +78,10 @@ As the website is for country hotel, which is located in the heart of the Yorksh
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
-![Home Page](/country-hotel/assets/wireframes/home-wireframe.png)
-![Hotel Page](/country-hotel/assets/wireframes/hotel-wireframe.png)
-![Restaurant Page](/country-hotel/assets/wireframes/restaurant-wireframe.png)
-![Book Page](/country-hotel/assets/wireframes/book-wireframe.png)
+![Home Page](assets/wireframes/home-wireframe.png)
+![Hotel Page](assets/wireframes/hotel-wireframe.png)
+![Restaurant Page](assets/wireframes/restaurant-wireframe.png)
+![Book Page](assets/wireframes/book-wireframe.png)
 
 ### Features
 
@@ -91,10 +91,10 @@ All Pages on the website are responsive and have:
 
 * A favicon in the browser tab.
 
-  ![favicon](/country-hotel/assets/favicon/country-hotel-favicon.ico)
+  ![favicon](assets/favicon/country-hotel-favicon.ico)
 
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
-  ![Country Hotel Title](/country-hotel/assets/images/logo.png)
+  ![Country Hotel Title](assets/images/logo.png)
 
 ## Bugs
 
