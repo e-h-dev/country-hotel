@@ -115,25 +115,25 @@
                         </fieldset>
                         <fieldset>
                             <legend class="uppercase main-font dark-font"><h2>about your stay</h2></legend>
-                            <legend class="uppercase main-font dark-font d-lg-none"><h6>Choose a bedroom:</h6></legend>
+                            <div class="uppercase main-font dark-font d-lg-none book-h6"><h6>Choose a bedroom:</h6></div>
                             <!-- bedroom choice input -->
                             <p class="float-left ml-3 main-font dark-font uppercase form-input radio d-none d-lg-block">Choose a bedroom:</p>
                             <div class="float-left ml-3 main-font dark-font uppercase form-input radio tab-mob-radio">
                                 <label for="king">King
                                     <input id="king" name="bedroom" value="king" type="radio" required>
-                                    <div class="checkmark"></div>
+                                    <p class="checkmark"></p>
                                 </label>
                             </div>
                             <div class="float-left ml-3 main-font dark-font uppercase form-input radio tab-mob-radio">
                                 <label for="double">Double
                                     <input id="double" name="bedroom" value="double" type="radio" required>
-                                    <div class="checkmark"></div>
+                                    <p class="checkmark"></p>
                                 </label>
                             </div>
                             <div class="float-left ml-3 main-font dark-font uppercase form-input radio tab-mob-radio">
                                 <label for="twin">Twin
                                     <input id="twin" name="bedroom" value="twin" type="radio" required>
-                                    <div class="checkmark"></div>
+                                    <p class="checkmark"></p>
                                 </label>
                             </div>
                         </fieldset>
@@ -143,7 +143,7 @@
                             <div class="float-left ml-3 main-font dark-font uppercase form-input">
                                 <label for="menu-choice-first" class="block-label">Choose from our menu</label>
                                 <input id="menu-choice-first" list="menu" name="menu-chioce">
-                                <datalist id="menu">
+                                <datalist id="menu-choice-first">
                                     <option value="Steak and Potatoes">
                                     <option value="Steak and Mash">
                                     <option value="Beef Wellington">
@@ -162,7 +162,7 @@
                             <div class="float-left ml-3 main-font dark-font uppercase form-input d-none d-lg-block">
                                 <label for="menu-choice-second" class="block-label">second meal</label>
                                 <input id="menu-choice-second" list="menu" name="menu-choice-2">
-                                <datalist id="menu">
+                                <datalist id="menu-choice-second">
                                     <option value="Steak and Potatoes">
                                     <option value="Steak and Mash">
                                     <option value="Beef Wellington">
@@ -181,7 +181,7 @@
                             <div class="float-left ml-3 main-font dark-font uppercase form-input d-none d-lg-block">
                                 <label for="menu-choice-third" class="block-label">third meal</label>
                                 <input id="menu-choice-third" list="menu" name="menu-chioce-3">
-                                <datalist id="menu">
+                                <datalist id="menu-choice-third">
                                     <option value="Steak and Potatoes">
                                     <option value="Steak and Mash">
                                     <option value="Beef Wellington">
@@ -200,7 +200,7 @@
                             <div class="float-left ml-3 main-font dark-font uppercase form-input d-none d-lg-block">
                                 <label for="menu-choice-fourth" class="block-label">fourth meal</label>
                                 <input id="menu-choice-fourth" list="menu" name="menu-choice-4">
-                                <datalist id="menu">
+                                <datalist id="menu-choice-fourth">
                                     <option value="Steak and Potatoes">
                                     <option value="Steak and Mash">
                                     <option value="Beef Wellington">
@@ -221,9 +221,9 @@
                         <input type="reset" value="">
                     </form>
                     <!-- booking confirmation button -->
-                    <a href="booking-confirmation.html">
-                        <input type="submit" value="Book Now!">
-                    </a>
+                    <div class="book-now">
+                        <a href="booking-confirmation.html">book now!</a>
+                    </div>
                 </div>
             </div>
         </div>

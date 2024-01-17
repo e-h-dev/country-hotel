@@ -772,8 +772,8 @@ h4 img{
     background: #F0F1C5;
 }
 
-.bed-description h1,
-.king-description h1{
+.king-description h2,
+.bed-description h2{
     text-align: center;
     margin:20px 0;
 }
@@ -1472,7 +1472,8 @@ legend h2{
     font-size: 18px;
 }
 
-input{
+input,
+.book-now{
     width: 210px;
     height: 40px;
     background: #425B58;
@@ -1565,7 +1566,7 @@ input[type=reset]{
         width:160px;
   }
 
-    legend h6{
+    .book-h6{
        margin-left:25px;
     }
 
