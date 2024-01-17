@@ -1638,7 +1638,9 @@ input[type=reset]{
 
 .logo-home-return{
     width:300px;
-    transition: width 3s ease-in-out;
+    transition: width 1.5s ease-in-out;
+    border:solid #927242 2px;
+    border-radius: 4px;
 }
 
 .logo-home-return:hover{
