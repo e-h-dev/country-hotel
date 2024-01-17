@@ -1628,11 +1628,28 @@ input[type=reset]{
     text-align: center;
 }
 
+.menu-link-confirmation{
+    color:#2e3f3d;
+}
+
+.menu-link-confirmation:hover{
+    color:#927242;
+}
+
 /* tablet sized device booking-confirmation page */
 
 @media screen and (max-width: 943px){
 
     .booking-box{
         width:500px;
+    }
+}
+
+/* mobile sized device booking-confirmation page */
+
+@media screen and (max-width: 600px){
+
+    .booking-box{
+        width:400px;
     }
 }
