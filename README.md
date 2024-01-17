@@ -16,7 +16,10 @@
       - [Site Visitor Goals](#site-visitor-goals)
 - [Design](#design)
     - [Color Scheme](#color-scheme)
-    - [typography](#typography)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
+    - [Features](#features)
 - [Bugs](#bugs)
 
 # About
@@ -64,8 +67,34 @@ I designed my colour scheme, based on the Country Hotel logo. For the logo desig
 
 ### Typography
 
-The fonts used in this website are KoHo and Questrial, both these fonts were suggested for the logo by [Canva](https://www.canva.com/). These fonts work well together. I used KoHo in uppercase for th headers and for the rest of the text across the website I have used Questrial.
-Both fonts are imported from google fonts and are used via the import link at the head of the [stylesheet](assets/css/style.css), this links all the text across the pages of the website to the appropriate style and font.
+The fonts used in this website are KoHo and Questrial, both these fonts were suggested for the logo by [Canva](https://www.canva.com/). These fonts work well together. I used KoHo in uppercase for the headers and for the rest of the text across the website I have used Questrial.
+Both fonts are imported from google fonts [KoHo](https://fonts.google.com/specimen/KoHo?query=koho) and [Questrial](https://fonts.google.com/specimen/Questrial?query=quest) they are used via the import link at the head of the [stylesheet](assets/css/style.css), this links all the text across the pages of the website to the appropriate style and font.
+
+### Imagery
+
+As the website is for country hotel, which is located in the heart of the Yorkshire Dales. I have used a beutiful image of the Yorkshire landscape for the hero image. This image as all the images in the website, is downloaded with a full license from [piaxabay](https://pixabay.com/photos/country-countryside-dales-england-21460/). The hero image of the hotel page is from [pixabay](https://pixabay.com/photos/hotel-country-hotel-house-896569/) this is a typical British Manor house converted into a hotel. The hero image for the restaurant page is also downloaded from [pixabay](https://pixabay.com/photos/table-bar-restaurant-drink-food-3084384/).
+
+### Wireframes
+
+Wireframes were created for mobile, tablet and desktop using balsamiq.
+
+![Home Page](/country-hotel/assets/wireframes/home-wireframe.png)
+![Hotel Page](/country-hotel/assets/wireframes/hotel-wireframe.png)
+![Restaurant Page](/country-hotel/assets/wireframes/restaurant-wireframe.png)
+![Book Page](/country-hotel/assets/wireframes/book-wireframe.png)
+
+### Features
+
+The website is comprised of a home page, a hotel page, a restaurant page, a booking page & a booking confirmation page.
+
+All Pages on the website are responsive and have:
+
+* A favicon in the browser tab.
+
+  ![favicon](/country-hotel/assets/favicon/country-hotel-favicon.ico)
+
+* The title of the site at the top of every page. This title also acts as a link back to the home page.
+  ![Country Hotel Title](/country-hotel/assets/images/logo.png)
 
 ## Bugs
 
