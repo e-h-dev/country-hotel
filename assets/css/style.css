@@ -268,7 +268,7 @@ a:hover{
     height: 400px;
     width: 100%;
     position: relative;
-    background-image: url("../images/hero-image.jpg");
+    background-image: url("../images/hero-image.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,7 +331,7 @@ a:hover{
 
 
 .hotel-image-link {
-    background-image: url("../images/hotel-image.jpg");
+    background-image: url("../images/hotel-image.webp");
 }
 
 .restaurant-image-link {
@@ -623,7 +623,7 @@ h4 img{
     height: 500px;
     width: 100%;
     position: relative;
-    background-image: url("../images/hotel-image.jpg");
+    background-image: url("../images/hotel-image.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1427,7 +1427,7 @@ article i{
     height: 1200px;
     width: 100%;
     position: relative;
-    background-image: url("../images/hero-image.jpg");
+    background-image: url("../images/hero-image.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1583,7 +1583,7 @@ input[type=reset]{
     width:100%;
     height:100vh;
     position: relative;
-    background-image: url("../images/hero-image.jpg");
+    background-image: url("../images/hero-image.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
