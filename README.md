@@ -107,6 +107,34 @@ All Pages on the website are responsive and have:
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
   ![Country Hotel Title](assets/images/logo.png)
 
+#### The Home Page
+
+The home page of Country Hotel displays the sites name/logo as a title and then a nav bar shows the links to the other pages. on mobile the links are located in the dropdown. Below is the hero image with a small box of info text, there is a read more button, this taked the user down to the main information section. Below the hero image are two images with titles, these are links one for the hotel page the other for the restaurant page. they are more interactive and will catch the attention of the user. Below is the main information section, below that is the location section, this consists of the address, and an iframe with a goole map. After that is the reveiw section, where previous guests have lesft a star rating and a reveiw. This brings the page to the footer, the footer has three columns (on mobile they are laid out vertically) the first is logo link which brings the user to th top pf the page. The second is contact information and the third column has the social media links. 
+
+![image of home page](assets/page-image/home-page.png)
+
+#### The Hotel Page
+
+The hotel page can be navigated to via the nav hotel link at the header of each page. Alternatively the Hotel page can be reached form the hotel image link on the Home page. The Hjotel page contains a hero image of the hotel exterior, this has an iformation box with explaini gthe available bedrooms, country hotel has to offer. The information box has two link buttons one taking th euser to the bedroom choice section, the second taking ht euser to the grounds information section. Below the hero image is three links to information abot the bedrooms, below are the three information sections 1. king bedrooms 2. double bedrooms 3. twin bedrooms. The grounds section has information about the grounds with a gallery of six iamges around country hotel. The footer is the same footer as the home page footer.
+
+![image of hotel page](assets/page-image/hotel-page.png)
+
+#### The Restaurant page
+
+The resttaurant page is navigated to in same two ways as the Hotel page. The rstaurant page consisits of a hero image of the interior of the hotel restaurant. The hero image has a samll informaiton section about the restaurant and the chef. There is a menu link button taming the user to the menu. Below the hero image is the information section, this is split into two columns, the left is the information about the chef, and the right column describes the restaurant. Below is the menu split into three sections 1. Beef 2. Sea food 3. Dairy.
+
+![image of book page](assets/page-image/book-page.png)
+
+#### The Book page
+
+The book page is navigated to by the book link in the navbar. The use, if wishing to contact and book a stay at Country Hotel can fill in a form with name, surname, email address, phone number, dates of check in and chck out. The user and order one or more meals for his stay, from the restaurant menu. The user will then click the book now bitton and a booking confirmation message will come on the screen. 
+
+![image of confirmation page](assets/page-image/booking-confirmation-page.png)
+
+#### The booking confirmation
+
+The booking confirmation does not have a nav bar or footer, it has a message confirming the booking. The user has an option to heck out the menu from the menu link on th econfirmation page, this ill open a new tab to the restaurant page. The user will be guided back to the home with a message to click on the logo.
+
 ## Bugs
 
 | No | Bug | How I fixed the bug |
