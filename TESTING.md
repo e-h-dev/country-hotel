@@ -29,12 +29,41 @@ I have gone through each page using google chrome developer tools to ensure that
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-* [index.html](testing/w3/w3-index.png) - Passed.
-* [game.html](testing/w3/w3-game.png) - No errors, 1 Warning. The warning is for an empty H2 tag. This is where the question is inserted using jQuery.
-* [highscores.html](testing/w3/w3-highscores.png) - Passed.
-* [404.html](testing/w3/w3-404.png) - Passed.
-* [500.html](testing/w3/w3-500.png) - Passed.
+#### Home Page
 
-* [style.css](testing/w3/w3-css.png) - Passed, no errors found.
+PASSED
+
+![home page](assets/code-validations/home-page-validated.png)
+
+#### Hotel Page
+
+PASSED
+
+![hotel page](assets/code-validations/hotel-page-validated.png)
+
+#### Restaurant Page
+
+PASSED
+
+![Restaurant page](assets/code-validations/retaurant-page-validated.png)
+
+#### Book Page
+
+PASSED
+
+![book page](assets/code-validations/book-page-validated.png)
+
+#### Booking Cofirmation Page
+
+PASSED
+
+![booking confirmation page](assets/code-validations/confirmation-page-validated.png)
+
+#### Style Sheet (css)
+
+PASSED - no errors one warning (I used the @import at the top of style sheet for fonts.)
+
+![Style sheet](assets/code-validations/css-validated.png)
+
 
 - - -
