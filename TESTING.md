@@ -45,7 +45,7 @@ PASSED
 
 PASSED
 
-![Restaurant page](assets/code-validations/retaurant-page-validated.png)
+![Restaurant page](assets/code-validations/restaurant-page-validated.png)
 
 #### Book Page
 
