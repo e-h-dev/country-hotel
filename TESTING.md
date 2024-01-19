@@ -108,11 +108,6 @@ I have tested all the website pages with lighthouse. Below are screenshots of th
 
 #### Site Visitor Goals.
 
-- I want to be able to contact the hotel in the simplest way.
-- I want to see what the company have to offer, on their restuarant menu.
-- I want the site to be responsive to my device.
-- I want the site to be easy to navigate.
-
 | Goals | How are they achieved? |
 | :--- | :--- |
 | I want to have access to clear details regarding the Hotel if I was to book a stay. | The website has very clear and detailed information about the hotel. This will make Site visitors comfortable and confidant in thier decision, to book a stay at the hotel. |
@@ -120,4 +115,42 @@ I have tested all the website pages with lighthouse. Below are screenshots of th
 | I want to see what the company have to offer, on their restuarant menu. | The Restaurabt page is simple to navigate to from all pages, it has a clear and well ilastrated menu. |
 | I want the site to be responsive to my device. |  Using technoligies such as bootstrap and media querys, the website is responsive to a range of devices, ensuring the user has a conviniant way of browsing the website. |
 | I want the site to be easy to navigate. | Clear navigation links in the place where the user expects to navigate from, will make the naviagation simple and straight forward for any user. |
+
+---
+
+### Full Testing
+
+Full testing was performed on a range of devices:
+
+* A widescreen desktop
+* Various different Laptops.
+* Android tablet.
+* Mobile Device.
+
+
+The site was tested using the following browsers:
+
+* Google Chrome
+* Microsoft Edge
+* Firefox
+* AVG Secure Browser
+* Opra
+
+Additional testing was taken by friends and family on a variety of devices and screen sizes. They reported no issues when browsing.
+
+`Home Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| Nav Bar | Hovering cursor over each link it changes to light colour. | Hovered over links | Colour of links changed | Pass |
+| Home link | Link directs the user back to the home page | Clicked link | Home page reloads | Pass |
+| Hotel link | Link directs the user to hotel page | Clicked link | Hotel page loads | Pass |
+| Prices Dropdown | Basic hotel pricing sould come down in a small box | Clicked dropdown | Prices appear | Pass |
+| Contact Dropdown | Hotel Contact email and Phone number should come down in a small box | Clicked dropdown | email and phone number appear | Pass |
+| Restaurant link | Link directs the user to restaurant page | Clicked link | Restaurant page loads | Pass |
+| Book link | Link directs the user to Book page | Clicked link | Book page loads | Pass |
+| Read More Button | Button should push the page down to the main information paragraph | Clicked Button | Main infromation paragraph appeard |
+| Hotel image link | Link directs the user to hotel page | Clicked link | Hotel page loads | Pass |
+| Hotel image link | Link directs the user to restaurant page | Clicked link | Restaurant page loads | Pass |
 
