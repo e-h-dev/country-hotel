@@ -19,7 +19,7 @@
     - [Typography](#typography)
     - [Imagery](#imagery)
     - [Wireframes](#wireframes)
-- [Country Hotel pages](#country hotel pages)
+- [Country Hotel pages](#CountryHotelPages)
   - [Features](#features)
   - [Home page](#the-home-page)
   - [Hotel page](#the-hotel-page)
@@ -267,3 +267,33 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | 6 | Fixed navbar blocks hero image. | I created a div above the the hero image and gave it a height of 120px, this pushed down th hero image. The navbar only covers the div and not the hero image. |
 | 7 | The fixed navbar made the elements in the page look messy, they were the same colour as the navbar but have different widths. When scrolling down the moing elements toucjing the navbar crated an uneven edge to the navbar. | I gave the navbar a bottom border of 3px with  darker colour, this gave the navbar an appearance of being above the ret of the page on the z-index. |
 | 8 | When testing the page on  a wider device the info box in the hero image was not centered. | I researched the topic of parent and child ivs and I found the best and most relavant way to center a child in a parent, by using the flexbox in css. this I found in a blog by [openreplay](https://blog.openreplay.com/five-css-ways-of-centering-a-child-in-its-parent/). |
+
+## Credits
+
+### Code Used
+
+* I used this [code](https://www.shecodes.io/athena/43168-how-to-align-navbar-to-the-right-in-bootstrap) to help with pushing the nav items, of the bootstrap navbar to the right of the navbar. By using the bootstrap class ml-auto I achieved what I was trying to create.
+
+* For the Google maps iframe I used the code from [google maps genarator](https://maps-google.github.io/embed-google-map/), this was the most efficient way of incorparating the map on the hotel home page.
+
+* To create the star rating on the reviews section, I wanted to have at least one reveiw with less than five stars, to give more ligitimacy to the website. To do this I used the following [code](https://www.w3schools.com/howto/howto_css_star_rating.asp) from [W3schools.com](https://www.w3schools.com/).
+
+### Content
+
+The information of the site is all fictional, and created to simulate a real life small family run hotel in the country side, who have a small, front end based website.
+
+### Media
+
+All the pictures through the pages of the website are downloaded with a license, from [Pixabay](https://pixabay.com/). Follow this [link](https://pixabay.com/service/terms/) to see the terms and conditions of downloads from pixabay.
+
+### Acknowledgments
+
+I would like to acknowledge the following people:
+
+* Jabril Akolade - My Code Institute Mentor.
+
+* Kera Cudmore - For the use of her amazing github repository [The quiz arms](https://github.com/kera-cudmore/TheQuizArms). Kera's repository was recoomended to me by my mentor Jabril, to help with writing my documentation.
+
+* Callum Jones - Of Newcastle College for helping in facilitating the course.
+
+* Code institute - For all the help and well structered lessons making this project possible after only three months of learning HTML.
