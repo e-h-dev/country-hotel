@@ -66,4 +66,29 @@ PASSED - no errors one warning (I used the @import at the top of style sheet for
 ![Style sheet](assets/code-validations/css-validated.png)
 
 
+### Lighthouse.
+
+I have tested all the website pages with lighthouse. Below are screenshots of the results.
+
+#### Home Page
+
+![Home page](assets/lighthouse/home-lighthouse.png)
+
+#### Hotel Page
+
+![Hotel page](assets/lighthouse/hotel-lighthouse.png)
+
+
+#### Retaurant Page
+
+![Restaurant page](assets/lighthouse/restaurant-lighthouse.png)
+
+#### Book Page
+
+![Book page](assets/lighthouse/book-lighthouse.png)
+
+#### Booking confirmation page
+
+![Confirmation page](assets/lighthouse/confirmation-lighthouse.png)
+
 - - -
