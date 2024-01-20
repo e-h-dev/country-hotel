@@ -194,7 +194,78 @@ Additional testing was taken by friends and family on a variety of devices and s
 | Contact Dropdown | Hotel Contact email and Phone number should come down in a small box | Clicked dropdown | email and phone number appear | Pass |
 | Restaurant link | Link directs the user to restaurant page | Clicked link | Restaurant page loads | Pass |
 | Book link | Link directs the user to Book page | Clicked link | Book page loads | Pass |
-| Read More Button | Button should push the page down to the main information paragraph | Clicked Button | Main infromation paragraph appeard |
+| Read More Button | Button should push the page down to the main information paragraph | Clicked Button | Main information paragraph appeard | Pass |
+| Hotel image link | Should animate when hovered over | hover over | image zooms in | Pass |
 | Hotel image link | Link directs the user to hotel page | Clicked link | Hotel page loads | Pass |
-| Hotel image link | Link directs the user to restaurant page | Clicked link | Restaurant page loads | Pass |
+| Restuarant image link | Should animate when hovered over | hover over | image zooms in | Pass |
+| Restaurant image link | Link directs the user to restaurant page | Clicked link | Restaurant page loads | Pass |
+| Google map | Map should show loaction (Keld) and should be interactive | Map shows correct location, map zooms in and out can change map type view and can move the map | Pass |
+| Footer logo | Should link back to top of page | Clicked on logo | Page scrolls back to the top | Pass |
+| Social loinks | Should open new tab to the home page of facebook, twitter, youtube and instergam | click on icon | New tab opens with home page of seledtes social media. |
+
+---
+
+`Hotel Page`
+
+Nav bar links and footer links are the same as in home page and passed all testing for the hotel page.
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Select a room button | Should scroll the page down to room selection images | Pressed button | Page scrolls to room selection images | Pass |
+| Our grounds button | Should scroll down to grounds imformation section (below bedroom section) | Pressed button | page scrools down to grounds imformation section | Pass |
+| King bed image | Should animate when hovered over | hover over | image zooms in | Pass |
+| Double bed image | Should animate when hovered over | hover over | image zooms in | Pass |
+| Twin bed image | Should animate when hovered over | hover over | image zooms in | Pass |
+| King bed image| Link directs the user king bed information section | Clicked link | Scrolls down to king bed information section | Pass |
+| Double bed image| Link directs the user double bed information section | Clicked link | Scrolls down to double bed information section | Pass |
+| Twin bed image| Link directs the user twin bed information section | Clicked link | Scrolls down to twin bed information section | Pass |
+
+`Navbar dropdowns`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Pricing dropdown | A dropdown box with price information should appear | Click on the dropdown | Prices appear | Pass |
+| Contact dropdown | A dropdown box with contact information should appear | Click on the dropdown | Contact information appears | Pass |
+
+`Restaurant page`
+
+Nav bar links and footer links are the same as in home page and passed all testing for the restaurant page.
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Menu button | Page should scrool down to menu | Pressed button | Pge scrolled down to menu | Pass |
+| Beef menu image | Should animate when hovered over | Hover over | Image zooms in | Pass |
+| Sea food menu image | Should animate when hovered over | hover over | image zooms in | Pass |
+| Dairy menu image | Should animate when hovered over | hover over | image zooms in | Pass |
+| Beef menu image| Link directs the user to beef menu section | Clicked link | Scrolls down to beef menu section | Pass |
+| Sea food menu image| Link directs the user to Sea food menu section | Clicked link | Scrolls down to sea food menu section | Pass |
+| Dairy menu image| Link directs the user to dairy menu section | Clicked link | Scrolls down to dairy menu section | Pass |
+
+`Book page`
+
+Nav bar links and footer links are the same as in home page and passed all testing for the book page.
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Input boxes | Should change colour when selected | Clicked on box | Colour changed | Pass |
+| Name input boxes | Should be able to fill in with name | Type name in | Name was saved in box | Pass |
+| Date input boxes | should pull up calander when icon is selected | selet icon | Calender appears | Pass |
+| Guests number selection boxes | Should have active selection arrows | Click on arrows | Numbers increase and decrease when selected. | Pass |
+| Guests number selection boxes | Should have a min and max selection | Click on arrows | Can not pass or select less than required number of guests | Pass |
+| Restaurant selection dropdown | hould show list of menu when clicked | Click on arrow | List of menu appears | Pass |
+| Menu number selection boxes | Should have active selection arrows | Click on arrows | Numbers increase and decrease when selected. | Pass |
+| Menu number selection boxes | Should have a min and max selection | Click on arrows | Can not pass or select less than required number of meals | Pass |
+| Form Rest Button | Should reset form | Pressed button | Form resets | Pass |
+| Book now button | Should bring up conformation of boking message | Pressed button | Booking confirmation message loads | Pass |
+
+`Book page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Check out our Menu message | Should load restaurant page on new tab when the word "Menu" is selected | Selected the word Menu | Restaurant page opens in a new tab | Pass |
+| Home logo link | Should animate when hovered over | Hovered over logo | Logo zooms in | Pass |
+| Home logo link | Should take user back home | Pressed the logo | Was taken back home | Pass |
+
+
+
 
