@@ -41,6 +41,8 @@
 * [Testing](#testing)
 
 - [Bugs](#bugs)
+  * [Solved bugs](#solved-bugs)
+  * [Known bugs](#known-bugs)
 * [Credits](#credits)
   * [Code Used](#code-used)
   * [Content](#content)
@@ -253,6 +255,8 @@ To clone the repository:
 ## Testing
 
 Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
+
+## Bugs
 
 
 ### Solved Bugs
