@@ -209,8 +209,6 @@ HTML, CSS
 
 * [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
 
-* [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
-
 - - -
 
 ## Deployment & Local Development
@@ -255,7 +253,7 @@ To clone the repository:
 Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 
-## Bugs
+### Solved Bugs
 
 | No | Bug | How I fixed the bug |
 | :--- | :--- | :--- |
@@ -267,6 +265,14 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | 6 | Fixed navbar blocks hero image. | I created a div above the the hero image and gave it a height of 120px, this pushed down th hero image. The navbar only covers the div and not the hero image. |
 | 7 | The fixed navbar made the elements in the page look messy, they were the same colour as the navbar but have different widths. When scrolling down the moing elements toucjing the navbar crated an uneven edge to the navbar. | I gave the navbar a bottom border of 3px with  darker colour, this gave the navbar an appearance of being above the ret of the page on the z-index. |
 | 8 | When testing the page on  a wider device the info box in the hero image was not centered. | I researched the topic of parent and child ivs and I found the best and most relavant way to center a child in a parent, by using the flexbox in css. this I found in a blog by [openreplay](https://blog.openreplay.com/five-css-ways-of-centering-a-child-in-its-parent/). |
+
+### Known Bugs
+
+* The input elements in the book page form have je required attribute. Origannaly the form was designed to POST to the code institute form dump. My mentor advice me that it would be better to create a separate page, that shows after the user has submited the form, this is better for UI. With this I created the booking confimation page. 
+
+After I linked the book page input button to the confirmaition page it just reloaded the book page. I had to place the book now button below the rirm element to connect to the booking page, this causes the form to be "submited" without having to fill in the required sections of the form.
+
+---
 
 ## Credits
 
