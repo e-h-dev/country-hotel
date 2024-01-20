@@ -1,6 +1,6 @@
-# Country Hotel -  Testing
+# Country Hotel - Testing
 
-![Coutry Hotel shown on a variety of screen sizes](assets/page-image/responsive-image.png)
+![Country Hotel shown on a variety of screen sizes](assets/page-image/responsive-image.png)
 
 Visit the deployed site: [Country Hotel](https://e-h-dev.github.io/country-hotel/)
 
@@ -27,7 +27,9 @@ I have gone through each page using google chrome developer tools to ensure that
 
 ### W3C Validator
 
-[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
+I used [W3C Validator](https://validator.w3.org/) to validate the HTML on all pages of the website.
+
+I used [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to validate the CSS file.
 
 #### Home Page
 
@@ -53,7 +55,7 @@ PASSED
 
 ![book page](assets/code-validations/book-page-validated.png)
 
-#### Booking Cofirmation Page
+#### Booking Confirmation Page
 
 PASSED
 
@@ -79,7 +81,7 @@ I have tested all the website pages with lighthouse. Below are screenshots of th
 ![Hotel page](assets/lighthouse/hotel-lighthouse.png)
 
 
-#### Retaurant Page
+#### Restaurant Page
 
 ![Restaurant page](assets/lighthouse/restaurant-lighthouse.png)
 
@@ -97,26 +99,26 @@ I have tested all the website pages with lighthouse. Below are screenshots of th
 
 ### Testing User Stories
 
-Each of the user goals I have aigned with a reference from A - I. Each goal will be supported with a screenshot of the website, proving the goal was acomplished.
+For each of the user goals, I have assigned with a reference from A - I. Each goal is supported below with a screenshot or gif of the website, proving the goal was accomplished.
 
 #### Hotel Owners Goals.
 
 | REF | Goals | How are they achieved? |
 | :--- | :--- | :--- |
-| A | We want the website to attract a new and wide range of customers. | With a modern and up to date website, users will simply be able to found us using a web search. |
-| B | We want an attractive website which clearly shows our goals as hotel owners, providing an exclusive Experience to our guests. | The well structered and tastefully designed website, has clear information details. This will give the user a positive feeling when browsing the site. The esers will come away with a clear understanding of the hotel and services. |
-| C | We want the website to be easy and clear to use. | With  clear and interactive navigation links the user will easally navigate the way around the website. |
-| D | We want the website to be responsive to all devices. | Using technoligies such as bootstrap and media querys, the website is responsive to a range of devices. |
+| A | We want the website to attract a new and wide range of customers. | With a modern and up to date website, users will simply be able to find us using a web search. |
+| B | We want an attractive website which clearly shows our goals as hotel owners, providing an exclusive Experience to our guests. | The well-structured and tastefully designed website has clear information details. This will give the user a positive feeling when browsing the site. The users will come away with a clear understanding of the hotel and services. |
+| C | We want the website to be easy and clear to use. | With clear and interactive navigation links the user will easily navigate the way around the website. |
+| D | We want the website to be responsive to all devices. | Using technologies such as bootstrap and media queries, the website is responsive to a range of devices. |
 
 #### Site Visitor Goals.
 
 | REF | Goals | How are they achieved? |
 | :--- | :--- | :--- |
-| E | I want to have access to clear details regarding the Hotel if I was to book a stay. | The website has very clear and detailed information about the hotel. This will make Site visitors comfortable and confidant in thier decision, to book a stay at the hotel. |
-| F | I want to be able to contact the hotel in the simplest way. | The easy to use form on the booking page is a very simple way for the user to contact the hotel. Email address and Phone number a simple to retrive form both the navbar and the footer. |
-| G | I want to see what the company have to offer, on their restuarant menu. | The Restaurant page is simple to navigate to from all pages, it has a clear and well ilustrated menu. |
-| H | I want the site to be responsive to my device. |  Using technoligies such as bootstrap and media querys, the website is responsive to a range of devices, ensuring the user has a conviniant way of browsing the website. |
-| I | I want the site to be easy to navigate. | Clear navigation links in the place where the user expects to navigate from, will make the naviagation simple and straight forward for any user. |
+| E | I want to have access to clear details regarding the Hotel if I was to book a stay. | The website has very clear and detailed information about the hotel. This will make Site visitors comfortable and confidant in their decision, to book a stay at the hotel. |
+| F | I want to be able to contact the hotel in the simplest way. | The easy-to-use form on the booking page is a very simple way for the user to contact the hotel. Email address and Phone number are simple to retrieve form both the navbar and the footer. |
+| G | I want to see what the company have to offer, on their restaurant menu. | The Restaurant page is simple to navigate to from all pages, it has a clear and well-illustrated menu. |
+| H | I want the site to be responsive to my device. | Using technologies such as bootstrap and media queries, the website is responsive to a range of devices, ensuring the user has a convenient way of browsing the website. |
+| I | I want the site to be easy to navigate. | Clear navigation links in the place where the user expects to navigate from, will make the navigation simple and straight forward for any user. |
 
 #### Screen shots for Hotel Owner Goals.
 
@@ -167,9 +169,9 @@ Each of the user goals I have aigned with a reference from A - I. Each goal will
 Full testing was performed on a range of devices:
 
 * A widescreen desktop
-* Various different Laptops.
+* Various Laptops.
 * Android tablet.
-* Mobile Device.
+* Mobile Devices.
 
 
 The site was tested using the following browsers:
@@ -190,18 +192,18 @@ Additional testing was taken by friends and family on a variety of devices and s
 | Nav Bar | Hovering cursor over each link it changes to light colour. | Hovered over links | Colour of links changed | Pass |
 | Home link | Link directs the user back to the home page | Clicked link | Home page reloads | Pass |
 | Hotel link | Link directs the user to hotel page | Clicked link | Hotel page loads | Pass |
-| Prices Dropdown | Basic hotel pricing sould come down in a small box | Clicked dropdown | Prices appear | Pass |
+| Prices Dropdown | Basic hotel pricing should come down in a small box | Clicked dropdown | Prices appear | Pass |
 | Contact Dropdown | Hotel Contact email and Phone number should come down in a small box | Clicked dropdown | email and phone number appear | Pass |
 | Restaurant link | Link directs the user to restaurant page | Clicked link | Restaurant page loads | Pass |
 | Book link | Link directs the user to Book page | Clicked link | Book page loads | Pass |
-| Read More Button | Button should push the page down to the main information paragraph | Clicked Button | Main information paragraph appeard | Pass |
+| Read More Button | Button should push the page down to the main information paragraph | Clicked Button | Main information paragraph appeared | Pass |
 | Hotel image link | Should animate when hovered over | hover over | image zooms in | Pass |
 | Hotel image link | Link directs the user to hotel page | Clicked link | Hotel page loads | Pass |
-| Restuarant image link | Should animate when hovered over | hover over | image zooms in | Pass |
+| Restaurant image link | Should animate when hovered over | hover over | image zooms in | Pass |
 | Restaurant image link | Link directs the user to restaurant page | Clicked link | Restaurant page loads | Pass |
-| Google map | Map should show loaction (Keld) and should be interactive | Map shows correct location, map zooms in and out can change map type view and can move the map | Pass |
+| Google map | Map should show location (Keld) and should be interactive | Map shows correct location, map zooms in and out can change map type view and can move the map | Pass |
 | Footer logo | Should link back to top of page | Clicked on logo | Page scrolls back to the top | Pass |
-| Social loinks | Should open new tab to the home page of facebook, twitter, youtube and instergam | click on icon | New tab opens with home page of seledtes social media. |
+| Social links | Should open new tab to the home page of Facebook, twitter, YouTube and Instagram | click on icon | New tab opens with home page of selected social media. |
 
 ---
 
@@ -212,7 +214,7 @@ Nav bar links and footer links are the same as in home page and passed all testi
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | Select a room button | Should scroll the page down to room selection images | Pressed button | Page scrolls to room selection images | Pass |
-| Our grounds button | Should scroll down to grounds imformation section (below bedroom section) | Pressed button | page scrools down to grounds imformation section | Pass |
+| Our grounds button | Should scroll down to grounds information section (below bedroom section) | Pressed button | page scrolls down to grounds information section | Pass |
 | King bed image | Should animate when hovered over | hover over | image zooms in | Pass |
 | Double bed image | Should animate when hovered over | hover over | image zooms in | Pass |
 | Twin bed image | Should animate when hovered over | hover over | image zooms in | Pass |
@@ -233,7 +235,7 @@ Nav bar links and footer links are the same as in home page and passed all testi
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| Menu button | Page should scrool down to menu | Pressed button | Pge scrolled down to menu | Pass |
+| Menu button | Page should scroll down to menu | Pressed button | Page scrolled down to menu | Pass |
 | Beef menu image | Should animate when hovered over | Hover over | Image zooms in | Pass |
 | Sea food menu image | Should animate when hovered over | hover over | image zooms in | Pass |
 | Dairy menu image | Should animate when hovered over | hover over | image zooms in | Pass |
@@ -249,10 +251,10 @@ Nav bar links and footer links are the same as in home page and passed all testi
 | --- | --- | --- | --- | --- |
 | Input boxes | Should change colour when selected | Clicked on box | Colour changed | Pass |
 | Name input boxes | Should be able to fill in with name | Type name in | Name was saved in box | Pass |
-| Date input boxes | should pull up calander when icon is selected | selet icon | Calender appears | Pass |
+| Date input boxes | should pull up calendar when icon is selected | select icon | Calendar appears | Pass |
 | Guests number selection boxes | Should have active selection arrows | Click on arrows | Numbers increase and decrease when selected. | Pass |
 | Guests number selection boxes | Should have a min and max selection | Click on arrows | Can not pass or select less than required number of guests | Pass |
-| Restaurant selection dropdown | hould show list of menu when clicked | Click on arrow | List of menu appears | Pass |
+| Restaurant selection dropdown | should show list of menus when clicked | Click on arrow | List of menu appears | Pass |
 | Menu number selection boxes | Should have active selection arrows | Click on arrows | Numbers increase and decrease when selected. | Pass |
 | Menu number selection boxes | Should have a min and max selection | Click on arrows | Can not pass or select less than required number of meals | Pass |
 | Form Rest Button | Should reset form | Pressed button | Form resets | Pass |
@@ -264,7 +266,7 @@ Nav bar links and footer links are the same as in home page and passed all testi
 | --- | --- | --- | --- | --- |
 | Check out our Menu message | Should load restaurant page on new tab when the word "Menu" is selected | Selected the word Menu | Restaurant page opens in a new tab | Pass |
 | Home logo link | Should animate when hovered over | Hovered over logo | Logo zooms in | Pass |
-| Home logo link | Should take user back home | Pressed the logo | Was taken back home | Pass |
+| Home logo link | Should take user back home | Pressed the logo | User was taken back home | Pass |
 
 
 
