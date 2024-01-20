@@ -106,7 +106,7 @@ Each of the user goals I have aigned with a reference from A - I. Each goal will
 | A | We want the website to attract a new and wide range of customers. | With a modern and up to date website, users will simply be able to found us using a web search. |
 | B | We want an attractive website which clearly shows our goals as hotel owners, providing an exclusive Experience to our guests. | The well structered and tastefully designed website, has clear information details. This will give the user a positive feeling when browsing the site. The esers will come away with a clear understanding of the hotel and services. |
 | C | We want the website to be easy and clear to use. | With  clear and interactive navigation links the user will easally navigate the way around the website. |
-| D | We want the website to be responsive to all devices. | Using technoligies such as bootstrap and media querys, the ebsite is responsive to a range of devices. |
+| D | We want the website to be responsive to all devices. | Using technoligies such as bootstrap and media querys, the website is responsive to a range of devices. |
 
 #### Site Visitor Goals.
 
@@ -114,23 +114,51 @@ Each of the user goals I have aigned with a reference from A - I. Each goal will
 | :--- | :--- | :--- |
 | E | I want to have access to clear details regarding the Hotel if I was to book a stay. | The website has very clear and detailed information about the hotel. This will make Site visitors comfortable and confidant in thier decision, to book a stay at the hotel. |
 | F | I want to be able to contact the hotel in the simplest way. | The easy to use form on the booking page is a very simple way for the user to contact the hotel. Email address and Phone number a simple to retrive form both the navbar and the footer. |
-| G | I want to see what the company have to offer, on their restuarant menu. | The Restaurabt page is simple to navigate to from all pages, it has a clear and well ilastrated menu. |
+| G | I want to see what the company have to offer, on their restuarant menu. | The Restaurant page is simple to navigate to from all pages, it has a clear and well ilustrated menu. |
 | H | I want the site to be responsive to my device. |  Using technoligies such as bootstrap and media querys, the website is responsive to a range of devices, ensuring the user has a conviniant way of browsing the website. |
 | I | I want the site to be easy to navigate. | Clear navigation links in the place where the user expects to navigate from, will make the naviagation simple and straight forward for any user. |
 
-##### Screen shots.
+#### Screen shots for Hotel Owner Goals.
 
-###### (A)
+#### (A)
 
 ![opened home page](assets/page-image/home-page.png)
 
-###### (B)
+#### (B)
 
 ![clear information](assets/page-image/owner-goal-2.png)
 
-###### (C)
+#### (C)
 
-![navigation links](assets/page-image/navigation-links.png)
+![navigation links](assets/page-image/nav-links.gif)
+
+#### (D)
+
+![responsive image](assets/page-image/responsive-image.png)
+
+--
+
+#### Screen shots for Site Visitor Goals.
+
+#### (E)
+
+![Site Information test](assets/page-image/site-info.gif)
+
+#### (F)
+
+![contact test](assets/page-image/contact-test.gif)
+
+#### (G)
+
+![Menu test](assets/page-image/restaurant-test.gif)
+
+#### (H)
+
+![responsive image](assets/page-image/responsive-image.png)
+
+#### (I)
+
+![navigation links](assets/page-image/nav-links.gif)
 
 ---
 
