@@ -25,7 +25,7 @@
   - [Hotel page](#the-hotel-page)
   - [Restaurant page](#the-restaurant-page)
   - [Book page](#the-book-page)
-  - [Confirmaiton page](#the-booking-confirmation)
+  - [Confirmation page](#the-booking-confirmation)
 * [Accessibility](#accessibility)
 
 * [Technologies Used](#technologies-used)
@@ -68,7 +68,7 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 
 - I want to have access to clear details regarding the Hotel if I was to book a stay.
 - I want to be able to contact the hotel in the simplest way.
-- I want to see what the company have to offer, on their restuarant menu.
+- I want to see what the company have to offer, on their restaurant menu.
 - I want the site to be responsive to my device.
 - I want the site to be easy to navigate.
 
@@ -99,7 +99,7 @@ Both fonts are imported from google fonts [KoHo](https://fonts.google.com/specim
 
 ### Imagery
 
-As the website is for country hotel, which is located in the heart of the Yorkshire Dales. I have used a beautiful image of the Yorkshire landscape for the hero image. This image as all the images in the website, is downloaded with a full license from [piaxabay](https://pixabay.com/photos/country-countryside-dales-england-21460/). The hero image of the hotel page is from [pixabay](https://pixabay.com/photos/hotel-country-hotel-house-896569/) this is a typical British Manor house converted into a hotel. The hero image for the restaurant page is also downloaded from [pixabay](https://pixabay.com/photos/table-bar-restaurant-drink-food-3084384/).
+As the website is for country hotel, which is in the heart of the Yorkshire Dales. I have used a beautiful image of the Yorkshire landscape for the hero image. This image as all the images on the website, is downloaded with a full license from [piaxabay](https://pixabay.com/photos/country-countryside-dales-england-21460/). The hero image of the hotel page is from [pixabay](https://pixabay.com/photos/hotel-country-hotel-house-896569/) this is a typical British Manor house converted into a hotel. The hero image for the restaurant page is also downloaded from [pixabay](https://pixabay.com/photos/table-bar-restaurant-drink-food-3084384/).
 
 ### Wireframes
 
@@ -140,19 +140,19 @@ All Pages on the website are responsive and have:
 
 #### The Home Page
 
-The home page of Country Hotel displays the sites name/logo as a title and then a nav bar shows the links to the other pages. on mobile the links are located in the dropdown. Below the navbar is the hero image with a small box of information text, there is a read more button, this takes the user down to the main information section. Below the hero image are two images with titles; these are links, one for the hotel page, the other for the restaurant page. They images are large and animated to catch the attention of the user. Below the links is the main information section, below that is the location section, this consists of the address, and an iframe with a goole map. After that is the reveiw section, where previous guests have left a star rating and a reveiw. This brings the page to the footer, the footer has three columns (on mobile they are laid out vertically) the first is logo link which brings the user to the top of the page. The second is contact information and the third column has the social media links. 
+The home page of Country Hotel displays the sites name/logo as a title and then a nav bar shows the links to the other pages, on mobile the links are in the dropdown. Below the navbar is the hero image with a small box of information text, there is a read more button, this takes the user down to the main information section. Below the hero image are two images with titles; these are links, one for the hotel page, the other for the restaurant page. They images are large and animated to catch the attention of the user. Below the links is the main information section, below that is the location section, this consists of the address, and an iframe with a Google map. After that is the review section, where previous guests have left a star rating and a review. This brings the page to the footer; the footer has three columns (on mobile they are laid out vertically) the first is logo link which brings the user to the top of the page. The second is contact information and the third column has the social media links. 
 
 ![image of home page](assets/page-image/home-page.png)
 
 #### The Hotel Page
 
-The hotel page can be navigated to via the nav hotel link at the header of each page. Alternatively the Hotel page can be reached from the hotel image link on the Home page. The Hotel page contains a hero image of the hotel exterior, this has an information box describing the available bedrooms, country hotel has to offer. The information box has two link buttons one taking the user to the bedroom choice section, the second taking the user to the grounds information section. Below the hero image is three links to information about the bedrooms, below that are the three information sections 1. king bedrooms 2. double bedrooms 3. twin bedrooms. The grounds section has information about the grounds with a gallery of six iamges from around the hotel grounds. The footer is the same footer as the home page footer.
+The hotel page can be navigated to via the nav hotel link at the header of each page. Alternatively, the Hotel page can be reached from the hotel image link on the Home page. The Hotel page contains a hero image of the hotel exterior, this has an information box describing the available bedrooms, country hotel has to offer. The information box has two link buttons one taking the user to the bedroom choice section, the second taking the user to the ground's information section. Below the hero image is three links to information about the bedrooms, below that are the three information sections 1. king bedrooms 2. double bedrooms 3. twin bedrooms. The grounds section has information about the grounds with a gallery of six images from around the hotel grounds. The footer is the same footer as the home page footer.
 
 ![image of hotel page](assets/page-image/hotel-page.png)
 
 #### The Restaurant page
 
-The resttaurant page is navigated to in same two ways, as the Hotel page. The restaurant page consists of a hero image showing the interior of the hotel restaurant. The hero image has a small informaiton section about the restaurant and the chef. There is a menu link button taking the user to the menu. Below the hero image is three image links the user can navigate with to each of the three sections of th. menu. Below these links is the information section, this is split into two columns, the left is the information about the chef, and the right column describes the restaurant. Below that is the menu, the menu is split into three sections 1. Beef 2. Sea food 3. Dairy.
+The restaurant page is navigated to in same two ways, as the Hotel page. The restaurant page consists of a hero image showing the interior of the hotel restaurant. The hero image has a small information box about the restaurant and the chef. There is a menu link button taking the user to the menu. Below the hero image is three image links the user can navigate with to each of the three sections of the menu. Below these links is the information section, this is split into two columns, the left is the information about the chef, and the right column describes the restaurant. Below that is the menu, the menu is split into three sections 1. Beef 2. Sea food 3. Dairy.
 
 ![image of restaurant page](assets/page-image/restaurant-page.png)
 
@@ -226,7 +226,7 @@ To Deploy the site using GitHub Pages:
 1. Login (or signup) to Github.
 2. Go to the repository for this project, [e-h-dev/CountryHotel](hhttps://github.com/e-h-dev/country-hotel)
 3. Click the settings button.
-4. Select pages in the left hand navigation menu.
+4. Select pages in the left-hand navigation menu.
 5. From the source dropdown select main branch and press save.
 6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
@@ -263,20 +263,20 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 | No | Bug | How I fixed the bug |
 | :--- | :--- | :--- |
-| 1 | The active class on the nav section was a border-bottom solid line, the line was not symmetrical  below each of nav elements. | I changed the active class, by giving each list item, a backgrond colour darker than the nav bar. |
-| 2 | The drop-down elements in the navbar, did not dispaly properly on mobile and tablet. The information was blocked by the next list item. | After trying out a various ideas, I realised the drop-down information was only blocked by the second drop-down link, and not by the next nav-item. I then changed the order of the nav links, now one drop-down did not drop over the other. |
+| 1 | The active class on the nav section was a border-bottom solid line, the line was not symmetrical below each of nav elements. | I changed the active class, by giving each list item, a background colour darker than the nav bar. |
+| 2 | The drop-down elements in the navbar, did not display properly on mobile and tablet. The information was blocked by the next list item. | After trying out various ideas, I realised the drop-down information was only blocked by the second drop-down link, and not by the next nav-item. I then changed the order of the nav links, now one drop-down did not drop over the other. |
 | 3 | After I changed the order of the nav links the symmetry of the whole nav bar looked odd on desktop. | I decided to create two nav links for navigation to resturant.html one after both dropdown links for desktop, using the .d bootstrap class I made this one visible only for desktop. The second link to restaurant.html I placed between the dropdown links and using the .d bootstrap class made it visible only for mobile and tablet. |
-| 4 | On restaurant.html I used bootstraps row and col classes to create the information article, the chef info in one column and the genaral info in a second column. After I finished the styling of the chef info and strated with the general info, it came out below the chef info even on desktop. | I spent long time checknig my code to see if I had made mistakes, I compare them to the bootstrap documentation and I could not find the reason for the bug. I tested the link to bootstrap it was working. I then used Devtools and checked multiple times, I relised eventually that the class chef-about which styles the chef info paragraph, I had inserted into the main div of the column (together with the bootstrap class). The chef-about class creates a box whoch is smaller than the overall column width, this therefore caused the next column to start at the edge of the column which was below the chef info. I fixed the bug by creating a separate div for the chef-about class, the main column therefore, used the full width of the page. this gave the space for the next column to start beside the first, rather than under it. |
-| 5 | Horizontal scrolling. | Using devtools I deleted elemnets of the affected pages one by one, untill the horizontal scroll had dissapeared. Then by process of elimination I determined which element was causing the horizontal overflow. Once I figured out the cause I computed the size if each child element of the affected element untill I worked out which was too wide, I then adjusted the width to fit the page.|
-| 6 | Fixed navbar blocks hero image. | I created a div above the the hero image and gave it a height of 120px, this pushed down th hero image. The navbar only covers the div and not the hero image. |
-| 7 | The fixed navbar made the elements in the page look messy, they were the same colour as the navbar but have different widths. When scrolling down the moing elements toucjing the navbar crated an uneven edge to the navbar. | I gave the navbar a bottom border of 3px with  darker colour, this gave the navbar an appearance of being above the ret of the page on the z-index. |
-| 8 | When testing the page on  a wider device the info box in the hero image was not centered. | I researched the topic of parent and child ivs and I found the best and most relavant way to center a child in a parent, by using the flexbox in css. this I found in a blog by [openreplay](https://blog.openreplay.com/five-css-ways-of-centering-a-child-in-its-parent/). |
+| 4 | On restaurant.html I used bootstraps row and col classes to create the information article, the chef info in one column and the general info in a second column. After I finished the styling of the chef info and started with the general restaurant information, it came out below the chef information even on desktop. | I spent long time checking the code to see if I had made mistakes, I compared the code to the bootstrap documentation and I could not find the reason for the bug. I tested the link to bootstrap it was working. I then used Devtools and checked multiple times, I realised eventually that the class chef-about which styles the chef info paragraph, was inserted into the main div of the column (together with the bootstrap class). The chef-about class creates a box which is smaller than the overall column width, this therefore caused the next column to start at the edge of the column which was below the chef info. I fixed the bug by creating a separate div for the chef-about class, the main column therefore, used the full width of the page. this gave the space for the next column to start beside the first, rather than under it. |
+| 5 | Horizontal scrolling. | Using devtools I deleted elements of the affected pages one by one, until the horizontal scroll had disappeared. Then by process of elimination I determined which element was causing the horizontal overflow. Once I figured out the cause, I computed the size if each child element of the affected element until I worked out which was too wide, I then adjusted the width to fit the page.|
+| 6 | Fixed navbar blocks hero image. | I created a div above the hero image and gave it a height of 120px, this pushed down the hero image. The navbar only covers the div and not the hero image. |
+| 7 | The fixed navbar made some of the elements in the page look messy, they are the same colour as the navbar but have different widths. When scrolling down the moving elements touching the navbar created an uneven edge to the navbar. | I gave the navbar a bottom border of 3px with darker colour, this gave the navbar an appearance of being above the rest of the page on the z-index. |
+| 8 | When testing the page on a wider device the info box in the hero image was not centred. | I researched the topic of parent and child divs and I found the best and most relevant way to centre a child in a parent, is by using the flexbox in css. this I found in a blog by [openreplay](https://blog.openreplay.com/five-css-ways-of-centering-a-child-in-its-parent/). |
 
 ### Known Bugs
 
-* The input elements in the book page form have je required attribute. Origannaly the form was designed to POST to the code institute form dump. My mentor advice me that it would be better to create a separate page, that shows after the user has submited the form, this is better for UI. With this I created the booking confimation page. 
+* The input elements in the book page form have the required attribute. Originally the form was designed to POST to the code institute form dump. My mentor advised me that it would be better to create a separate page, that shows after the user has submitted the form, this is better for UI. With this I created the booking confirmation page. 
 
-After I linked the book page input button to the confirmaition page it just reloaded the book page. I had to place the book now button below the rirm element to connect to the booking page, this causes the form to be "submited" without having to fill in the required sections of the form.
+After I linked the book page input button to the confirmation page it just reloaded the book page. I had to place the "book now "button below the form element to connect it to the booking confirmation page, this causes the form to be "submitted" without having to fill in the required sections of the form.
 
 ---
 
@@ -286,13 +286,13 @@ After I linked the book page input button to the confirmaition page it just relo
 
 * I used this [code](https://www.shecodes.io/athena/43168-how-to-align-navbar-to-the-right-in-bootstrap) to help with pushing the nav items, of the bootstrap navbar to the right of the navbar. By using the bootstrap class ml-auto I achieved what I was trying to create.
 
-* For the Google maps iframe I used the code from [google maps genarator](https://maps-google.github.io/embed-google-map/), this was the most efficient way of incorparating the map on the hotel home page.
+* For the Google maps iframe I used the code from [google maps generator](https://maps-google.github.io/embed-google-map/), this was the most efficient way of incorporating  the map on the hotel home page.
 
-* To create the star rating on the reviews section, I wanted to have at least one reveiw with less than five stars, to give more ligitimacy to the website. To do this I used the following [code](https://www.w3schools.com/howto/howto_css_star_rating.asp) from [W3schools.com](https://www.w3schools.com/).
+* To create the star rating on the reviews section, I wanted to have at least one review with less than five stars, to give more legitimacy to the website. To do this I used the following [code](https://www.w3schools.com/howto/howto_css_star_rating.asp) from [W3schools.com](https://www.w3schools.com/).
 
 ### Content
 
-The information of the site is all fictional, and created to simulate a real life small family run hotel in the country side, who have a small, front end based website.
+The information of the site is all fictional and created to simulate a real life small family run hotel in the country side, who have a small, front end based website.
 
 ### Media
 
@@ -304,8 +304,10 @@ I would like to acknowledge the following people:
 
 * Jabril Akolade - My Code Institute Mentor.
 
-* Kera Cudmore - For the use of her amazing github repository [The quiz arms](https://github.com/kera-cudmore/TheQuizArms). Kera's repository was recoomended to me by my mentor Jabril, to help with writing my documentation.
+* Kera Cudmore - For the use of her amazing github repository [The quiz arms](https://github.com/kera-cudmore/TheQuizArms). Kera's repository was recommended to me by my mentor Jabril, to help with writing my documentation.
 
 * Callum Jones - Of Newcastle College for helping in facilitating the course.
 
-* Code institute - For all the help and well structered lessons making this project possible after only three months of learning HTML.
+* Kevin Hillary - Of Newcastle College for the ongoing support he is providing.
+
+* Code institute - For all the help and well-structured lessons making this project possible after only three months of learning HTML.
