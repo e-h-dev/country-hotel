@@ -270,13 +270,12 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | 5 | Horizontal scrolling. | Using devtools I deleted elements of the affected pages one by one, until the horizontal scroll had disappeared. Then by process of elimination I determined which element was causing the horizontal overflow. Once I figured out the cause, I computed the size if each child element of the affected element until I worked out which was too wide, I then adjusted the width to fit the page.|
 | 6 | Fixed navbar blocks hero image. | I created a div above the hero image and gave it a height of 120px, this pushed down the hero image. The navbar only covers the div and not the hero image. |
 | 7 | The fixed navbar made some of the elements in the page look messy, they are the same colour as the navbar but have different widths. When scrolling down the moving elements touching the navbar created an uneven edge to the navbar. | I gave the navbar a bottom border of 3px with darker colour, this gave the navbar an appearance of being above the rest of the page on the z-index. |
-| 8 | When testing the page on a wider device the info box in the hero image was not centred. | I researched the topic of parent and child divs and I found the best and most relevant way to centre a child in a parent, is by using the flexbox in css. this I found in a blog by [openreplay](https://blog.openreplay.com/five-css-ways-of-centering-a-child-in-its-parent/). |
+| 8 | The fixed navbar caused the id internal links not to display in the correct place, the identified section of the page is stuck under the navbar. | I replaced the "id" to an element above the section of the link, (for some I added a new div with the "id") now the link connects to the above element and the correct part of the page is displayed below the fixed navbar. | 
+| 9 | When testing the page on a wider device the info box in the hero image was not centred. | I researched the topic of parent and child divs and I found the best and most relevant way to centre a child in a parent, is by using the flexbox in css. this I found in a blog by [openreplay](https://blog.openreplay.com/five-css-ways-of-centering-a-child-in-its-parent/). |
 
 ### Known Bugs
 
-The input elements in the book page form have the required attribute. Originally the form was designed to POST to the code institute form dump. My mentor advised me that it would be better to create a separate page, that shows after the user has submitted the form, this is better for UI. With this I created the booking confirmation page. 
-
-After I linked the book page input button to the confirmation page it just reloaded the book page. I had to place the "book now "button below the form element to connect it to the booking confirmation page, this causes the form to be "submitted" without having to fill in the required sections of the form.
+Originally the form was designed to POST to the code institute form dump. My mentor advised me that it would be better to create a separate page, that shows after the user has submitted the form, this is better for UX. With this I created the booking confirmation page, the form is linked to open the booking-confirmation page when the form is submitted. This however, will not display or confirm the input items.
 
 ---
 
