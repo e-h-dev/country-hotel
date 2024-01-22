@@ -1490,9 +1490,9 @@ input{
 }
 
 .book-now{
-    position:relative;
+    position:absolute;
     left:420px;
-    bottom:15px;
+    bottom:100px;
     letter-spacing:3px;
     font-size:24px;
     font-weight:600;
@@ -1548,8 +1548,10 @@ input[type=reset]{
     }
 
     .book-now{
-        left:180px;
-        bottom:15px;
+        left: 120px;
+        bottom: 195px;
+        width: 200px;
+        height: 50px;
    }
 }
 
@@ -1576,11 +1578,13 @@ input[type=reset]{
   }
 
   .book-now{
-    left:50px;
-    bottom:13px;
-    letter-spacing:1px;
-    font-size:18px;
-    font-weight:400;
+    left: 20px;
+    bottom: 150px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
+    height: 50px;
+    width: 150px;
 }
 
 }
