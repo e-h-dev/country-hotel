@@ -224,7 +224,7 @@ The site is deployed using GitHub Pages - [Country Hotel](https://e-h-dev.github
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [e-h-dev/CountryHotel](hhttps://github.com/e-h-dev/country-hotel)
+2. Go to the repository for this project, [e-h-dev/CountryHotel](https://github.com/e-h-dev/country-hotel)
 3. Click the settings button.
 4. Select pages in the left-hand navigation menu.
 5. From the source dropdown select main branch and press save.
@@ -237,7 +237,7 @@ To Deploy the site using GitHub Pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [e-h-dev/CountryHotel](hhttps://github.com/e-h-dev/country-hotel)
+2. Go to the repository for this project, [e-h-dev/CountryHotel](https://github.com/e-h-dev/country-hotel)
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -245,7 +245,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [e-h-dev/CountryHotel](hhttps://github.com/e-h-dev/country-hotel)
+2. Go to the repository for this project, [e-h-dev/CountryHotel](https://github.com/e-h-dev/country-hotel)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -274,7 +274,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Known Bugs
 
-* The input elements in the book page form have the required attribute. Originally the form was designed to POST to the code institute form dump. My mentor advised me that it would be better to create a separate page, that shows after the user has submitted the form, this is better for UI. With this I created the booking confirmation page. 
+The input elements in the book page form have the required attribute. Originally the form was designed to POST to the code institute form dump. My mentor advised me that it would be better to create a separate page, that shows after the user has submitted the form, this is better for UI. With this I created the booking confirmation page. 
 
 After I linked the book page input button to the confirmation page it just reloaded the book page. I had to place the "book now "button below the form element to connect it to the booking confirmation page, this causes the form to be "submitted" without having to fill in the required sections of the form.
 
