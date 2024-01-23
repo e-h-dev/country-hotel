@@ -682,6 +682,7 @@ h4 img{
 
 .bed-info{
     background: #E7D49E;
+    width:96%;
 }
 
 .bedroom-header{
@@ -689,10 +690,6 @@ h4 img{
     margin-right: 0;
     padding: 30px 0;
     text-align: center
-}
-
-#bedroom-select{
-    width:96%;
 }
 
 .king-image{
