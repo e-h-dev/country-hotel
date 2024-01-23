@@ -14,7 +14,12 @@
     - [User Stories](#user-stories)
       - [Hotel Owner Goals](#hotel-owner-goals)
       - [Site Visitor Goals](#site-visitor-goals)
-    - [Scope Tradeoffs](#scope-tradeoffs)
+    - [Strategy Tradeoffs](#strategy-tradeoffs)
+      - [Strategy Criteria](#strategy-criteria)
+      - [Strategy Table](#strategy-table)
+      - [Strategy Assesment](#strategy-assesment)
+      - [Strategy Graph](#strategy-graph)
+      - [Strategy Reasons](#strategy-reasons)
 - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
@@ -73,9 +78,31 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 - I want the site to be responsive to my device.
 - I want the site to be easy to navigate.
 
-### Scope Tradeoffs 
+### Strategy Tradeoffs 
 
-- In the table below I have documented the reason why each part of the scope plane was either added to the website or was not deemed imporatant or viable.
+#### Strategy criteria
+
+- When creating the website and deciding what must be featured for the use of the site visitors, I decided on sixteen main criteria this are listed in the [table](#strategy-table) below. I then had to strategies and work out which of the sixteen were most important and which could br traded off.
+
+- The strategy I used was to give each of the sixteen criteria a score on two separate accounts, the first how important that specific item was for the user's need, the second how viable is it to include the item in a front end website.
+
+- The following table Illustrates the scores given on both acoounts of judgement.
+
+#### Strategy Table
+
+![strategy table](assets/strategy-image/strategy-table.png)
+
+#### Strategy Assesment
+
+- After tallying the two scores for each criteria item, I then calculated the average of all sixteen criteria. This is evident in the above image the resulting average was 8.235, the next step was to plot all sixten criteria in a graph, the graph is colour coded from red the most relavant acrros both scores, to green the least relavant. All criteria which scored eight or more, were close enough to the red zone to be considred relavent to be included in the make up of the website.
+
+#### Strategy Graph
+
+![strategy graph](assets/strategy-image/strategy-graph.png)
+
+#### Strategy Reasons
+
+- In the table below I have documented the reasons why each part of the sixteen criteria was either added to the website or was not, the resoning shows how I judged each criteria to see if it is important and viable.
 
 | Number | Possible Goal | Reference | Importance-score | Viability-score | Reason |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -96,6 +123,7 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 | 15 | Provide info of local attractions. | O | 3 | 4 | Very useful, may be bad for competition if providing hospitality info. |
 | 16 | Customer reviews | P | 4 | 4 | Most customers want to see the experience of others. | 
 
+---
 
 # Design
 
