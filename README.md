@@ -14,6 +14,7 @@
     - [User Stories](#user-stories)
       - [Hotel Owner Goals](#hotel-owner-goals)
       - [Site Visitor Goals](#site-visitor-goals)
+    - [Scope Tradeoffs](#scope-tradeoffs)
 - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
@@ -71,6 +72,30 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 - I want to see what the company have to offer, on their restaurant menu.
 - I want the site to be responsive to my device.
 - I want the site to be easy to navigate.
+
+### Scope Tradeoffs 
+
+- In the table below I have documented the reason why each part of the scope plane was either added to the website or was not deemed imporatant or viable.
+
+| Number | Possible Goal | Reference | |importance-score | Viability-score | Reason |
+| :--- | :---| :---| :--- | :--- | :---|
+| 1 | Create online presence | A | 5 | 5 | Most hotel customers gather info online. |
+| 2 | Own website | B | 5 | 5 | Better online presence easier to show info. |
+| 3 | Show locations | C | 5 | 5 | Expected. |
+| 4 | Show prices | D | 4 | 5 | Customers like to see pricing. |
+| 5 | Show date availabilities | E	 | 5 | 2 | Difficult in simple website, but very important. |
+| 6 | Show restaurant | F | 4 | 5 | Very necessary, as big part of product. |
+| 7 | Show menu | G | 4 | 4 | Many customers like to see availability. |
+| 8 | Images of hotels | H | 5 | 5 | Basic expectation |
+| 9 | Images of restaurants | I | 4 | 5 | Expected |
+| 10 | Booking form | J,J* | 4 | 4 | Quite easy to make, *  can’t connect to server with front-end. |
+| 11 | Online payment | K | 4 | 1 | Not viable in front-end. |
+| 12 | Show map | L | 4 | 4 | Can put in postcode, better to include google map  iframe, more provides better user experience. |
+| 13 | Provide detailed info of hotels | M | 5 | 5 | Expected. |
+| 14 | Provide detailed info of owners | N | 3 | 5 | Many customers feel more comfortable with service with such info provided. |
+| 15 | Provide info of local attractions. | O | 3 | 4 | Very useful, may be bad for competition if providing hospitality info. |
+| 16 | Customer reviews | P | 4 | 4 | Most customers want to see the experience of others. | 
+
 
 # Design
 
