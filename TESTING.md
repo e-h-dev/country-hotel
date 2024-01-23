@@ -260,7 +260,7 @@ Nav bar links and footer links are the same as in home page and passed all testi
 | Form Rest Button | Should reset form | Pressed button | Form resets | Pass |
 | Book now button | Should bring up conformation of boking message | Pressed button | Booking confirmation message loads | Pass |
 
-`Book page`
+`Booking confirmation page`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
