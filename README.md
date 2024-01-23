@@ -77,7 +77,7 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 
 - In the table below I have documented the reason why each part of the scope plane was either added to the website or was not deemed imporatant or viable.
 
-| Number | Possible Goal | Reference | | Importance-score | Viability-score | Reason |
+| Number | Possible Goal | Reference | Importance-score | Viability-score | Reason |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Create online presence | A | 5 | 5 | Most hotel customers gather info online. |
 | 2 | Own website | B | 5 | 5 | Better online presence easier to show info. |
