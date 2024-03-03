@@ -57,7 +57,7 @@
 
 # About
 
-Country Hotel is a fictional, family run hotel company. The company owns a hotel in the heart of the British countryside. As a small family run business, the publicity of the company had been only via other media outlets, social media, local phone books and the like. The family have decided, to expand the business, by creating their own website to publicise and promote their hot and services. The decision was to create their own front-end website.
+Country Hotel is a fictional, family run hotel company. The company owns a hotel in the heart of the British countryside. As a small family run business, the publicity of the company had been only via other media outlets, social media, local phone books and the like. The family have decided, to expand the business, by creating their own website to publicise and promote their hotel and services. The decision was to create their own front-end website.
 
 ## User Experience (UX)
 
@@ -82,7 +82,7 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 
 #### Strategy criteria
 
-- When creating the website and deciding what must be featured for the use of the site visitors, I decided on sixteen main criteria this are listed in the [table](#strategy-table) below. I then had to strategies and work out which of the sixteen were most important and which could br traded off.
+- When creating the website and deciding what must be featured for the use of the site visitors, I decided on sixteen main criteria this are listed in the [table](#strategy-table) below. I then had to strategise and work out which of the sixteen were most important and which could be traded off.
 
 - The strategy I used was to give each of the sixteen criteria a score on two separate accounts, the first how important that specific item was for the user's need, the second how viable is it to include the item in a front end website.
 
@@ -94,7 +94,7 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 
 #### Strategy Assesment
 
-- After tallying the two scores for each criteria item, I then calculated the average of all sixteen criteria. This is evident in the above image the resulting average was 8.235, the next step was to plot all sixten criteria in a graph, the graph is colour coded from red the most relavant acrros both scores, to green the least relavant. All criteria which scored eight or more, were close enough to the red zone to be considred relavent to be included in the make up of the website.
+- After tallying the two scores for each criteria item, I then calculated the average of all sixteen criteria. This is evident in the above image the resulting average was 8.235, the next step was to plot all sixteen criteria in a graph, the graph is colour coded from red the most relavant across both scores, to green the least relavant. All criteria which scored eight or more, were close enough to the red zone, to be considred relavent to be included in the make up of the website.
 
 #### Strategy Graph
 
@@ -102,7 +102,7 @@ Country Hotel is a fictional, family run hotel company. The company owns a hotel
 
 #### Strategy Reasons
 
-- In the table below I have documented the reasons why each part of the sixteen criteria was either added to the website or was not, the resoning shows how I judged each criteria to see if it is important and viable.
+- In the table below I have documented the reasons why each part of the sixteen criteria was either added to the website or was not, the reasoning shows how I judged each criteria to see if it is important and viable.
 
 | Number | Possible Goal | Reference | Importance-score | Viability-score | Reason |
 | :--- | :--- | :--- | :--- | :--- | :--- |
