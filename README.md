@@ -9,6 +9,7 @@
 - [First Milestone Project](#first-milestone-project)
 - [Country Hotel](#country-hotel)
 - [Table of Contents](#table-of-contents)
+- [Project Rationale](#project-rationale)
 - [About](#about)
 - [User Experience (UX)](#user-Experience-ux)
   - [User Stories](#user-stories)
