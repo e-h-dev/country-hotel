@@ -55,6 +55,18 @@
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
+# Project Rationale
+
+* Country Hotel website, the goal of the website is, to give a platform for the hotel owners. This platform will help possible customers, familirise themselves with the hotel and it's services.
+* This is a fictional Project. The motivation behind it is to show how with a well built, and easy to navigate website, vital information for the success of a buissnees in the hospitality sector can be easily accessed.
+* A hotel company which does not have an up to date and established website, will for behind the vast competition it faces. This project showcases, how with a well built website, a company can bring in many more customers.
+* With a separate, but east accesable restaurant page, any visitor to the site can clearly identify each section of the buisness as a separate identitiy. Many other hotel websites merge the two together, causing a more complex, less simple experiance for those visiting the site.
+* The clear structuerd separation of all pages makes it much clearer for the visitor to process each piece of information for itself. The home page displays genaral information about the hotel an it's services and grounds. The hotel page provides clear information abour the hotel bedrooms and grounds. The restaurant page provide separate and detailed information on the menu available at country hotel.
+* The scope project is for front end information, it is limited since the only way to actually contact the hotel, would be via the social media links. However, by connecting this webssite to a server it will be fully functional. 
+* Since this project is fictional it doesn't have much space to expand on it's own, I would like to use this exact website structure, and implement it for a real non-fictional project, in the future. 
+* In summary, this ficional project has a clear purpose for any buisness in the hospitality sector. The project clealy defines the range of services provided by the hotel. A website as this will is valuable investment for any small hotel buisness looking to expand and publicise it's services. The project can be implemented with ease, for a real life scenario. 
+
+
 # About
 
 Country Hotel is a fictional, family run hotel company. The company owns a hotel in the heart of the British countryside. As a small family run business, the publicity of the company had been only via other media outlets, social media, local phone books and the like. The family have decided, to expand the business, by creating their own website to publicise and promote their hotel and services. The decision was to create their own front-end website.
