@@ -5,6 +5,8 @@
 footer{
     background: #2e3f3d;
     color:#E7D49E;
+    position: relative;
+    top: 200px;
 }
 
 /* styling classes */
@@ -409,6 +411,7 @@ a:hover{
     position: relative;
     margin-top:40px;
     padding:10px;
+    left: 200px;
 }
 
 .main-about h2{
@@ -422,11 +425,25 @@ a:hover{
     font-weight: 400;
 }
 
+/*video*/
+
+video{
+    position: relative;
+    top: 750px;
+    width: 380px;
+    height: 220px;
+    right: 400px;
+    border: solid 1px #425B58;
+    border-radius: 5px;
+}
+
 /* location and map */
 
 .location-parent{
     display: flex;
     justify-content: center;
+    position:relative;
+    top:230px;
 }
 
 .location{
@@ -454,6 +471,11 @@ a:hover{
 }
 
 /* reveiws section */
+
+.reveiws-section{
+    position: relative;
+    top: 200px;
+}
 
 .reveiws{
     margin-top: 100px;
