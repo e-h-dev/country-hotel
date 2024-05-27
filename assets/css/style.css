@@ -560,6 +560,12 @@ h4 img{
         padding: 10px;
     }
 
+    /*video*/
+    video{
+       top: 900px;
+       right: 200px;
+    }
+
     /* location and map */
     
     .location {
